@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Бронирование</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="place.css">
+    <script type="text/javascript" src="place.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+</head>
+<body>
+<div class="account" id="account">
+    <i class="fa fa-home" id = "home" aria-hidden="true"></i>
+	<h3 align="center">Бронирование билетов</h3>
+	<div class="information" id="information">
+        <div id="options">
+        <select id='film' class="select">
+            <option>Лесси</option>
+            <option>Один дома</option>
+            <option>Бумер</option>
+        </select>
+        <select id='time' class="select">
+            <option>14:30</option>
+            <option>15:55</option>
+            <option>12:45</option>
+        </select>
+        <select id='date' class="select">
+            <option>24.05</option>
+            <option>22.05</option>
+            <option>22.05</option>
+        </select>
+        </div>
+        <table id="places">
+         <tr>
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>  
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>
+        </tr>
+        <tr>
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>  
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>
+        </tr>
+
+        <tr> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>  
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>
+        </tr>
+
+        <tr>
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>  
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>
+        </tr>
+
+        <tr>
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>  
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td> 
+        <td id="checkbox"><input class="check" onclick="takePlace(this)" type="checkbox" placeholder="1:1" class="check"></td>
+        </tr>
+        </table>
+        <table id="table">
+        <tbody>
+        <tr>
+            <th class="field">Выбрано мест:</th>
+            <td id="number" class="value">
+                <script>
+                    document.getElementById('number').innerHTML = count;
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <th class="field">Стоимость(руб):</th>
+            <td class="value">
+            500
+            </td>
+        </tr>
+           </tbody>
+        </table>
+        <button id="buy">Бронировать</button>
+        <table id="room">
+        <tbody>
+        <tr>
+            <th class="field">Зал:</th>
+            <td class="value">
+                2
+            </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <span id="place_help" class="help"></span>
+    </div>
+</body>
+</html>

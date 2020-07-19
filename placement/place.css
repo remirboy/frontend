@@ -1,0 +1,93 @@
+
+.information{
+  margin: 0 auto;
+  background: rgba(13, 47, 196, 0.9);
+  width: calc(1px + 125vmin);
+  height: 650px;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.82)
+}
+
+#home{
+	position: relative;
+	left: 30%;
+	top:35px;
+}
+
+#film{
+	position: relative;
+	left: 1%;
+}
+
+#time{
+	position: relative;
+	left: 35%;
+}
+
+#date{
+	position: relative;
+	left: 68%
+}
+
+.select{
+	width: 100px;
+}
+
+#options{
+	width: 100%;
+}
+
+#places{
+	position: relative;
+	top: 30px;
+	left: 15%;
+	height: 75%;
+	width: 75%;
+}
+
+.value{
+	padding-left: 10%;
+}
+
+.field{
+	padding-left: 0%;
+}
+
+#table{
+	position: relative;
+	top: 50px;
+	left: 15%;
+}
+
+#buy{
+	position: relative;
+	top: 10px;
+	left: 35%;
+}
+
+#room{
+	position: relative;
+	top: 0px;
+	left: 70%;
+}
+
+#place_help{
+	position: relative;
+	left: 30%;
+    bottom: 600px;
+    color: red;
+}
+
+input {
+      width: 24px;
+      height: 24px;
+      -webkit-appearance: none;
+      background: white;
+      transition: 1s;
+      position: relative;
+ }
+
+ input:checked[type="checkbox"] {
+      background: grey;
+    }

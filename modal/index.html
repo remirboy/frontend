@@ -1,0 +1,236 @@
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Люмьер</title>
+  <link rel="stylesheet" href="fonts/icofont/icofont.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hover.css">
+  <!-- swiper plugin -->
+  <link rel="stylesheet" href="/layout/styles/swiper-bundle.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="authValid.js"></script>
+  <style type="text/css">
+   #mask:hover {
+    background-color:rgba(0,0,0,.3);
+    height:100%;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+}
+  </style>
+</head>
+<body class="bg-light">
+  <div id="mask"  class="container-sm pl-1 pr-1">
+  <!-- header -->
+    <header class="d-flex container-sm sticky-top justify-content-around align-items-center">
+      <a href="./index.html">
+        <img src="img/logo.png" alt="Кинотеатр Люмьер логотип" id="logo">
+      </a>
+      <div class="d-flex flex-column align-items-center">
+        <form class="search">
+					<input type="search" name="search" placeholder="Поиск по фильмам">
+					<button class="search-button" aria-label="Найти на сайте"></button>
+				</form>
+        <ul class="list-inline m-0 pt-2">
+          <li class="list-inline-item pr-4"><a href=# class="text-dark">Афиша</a></li>|
+          <li class="list-inline-item pl-4 pr-4"><a href=# class="text-dark">Забронировать</a></li>|
+          <li class="list-inline-item pl-4"><a href="#footer" class="text-dark">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <button id="auth--button">
+          <a href="#" class="text-dark">
+            <i class="icofont-login pr-2"></i>
+            Войти
+          </a>
+        </button>
+        <br>
+        <a href="#" class="text-dark">
+          Регистрация
+        </a>
+      </div>
+
+    </header>
+
+  <!-- auth modal -->
+    <div class="modal" id="authModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <form class="p-4" name="registration" method="post" action="auth/process" id="form">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required class="form-control" placeholder="example@gmail.com"
+                onblur="valid(document.getElementById('form'))">
+                <span id="email_help" class="form-text text-muted"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="password">Пароль</label>
+                <input required type="password" name="password" id="password" class="form-control" onblur="valid(document.getElementById('form'))">
+                <span id="password_help" class="form-text text-muted"></span>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Запомнить меня
+                </label>
+              </div>
+              <br>
+              <button id="loginButton" type="submit" class="btn btn-secondary" onclick="valid(document.getElementById('form'))">Вход</button>
+              <a href="./register.html" class="btn btn-secondary">Регистрация</a>
+              <br>
+              <button type="button" class="btn btn-link">Забыли пароль?</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- posters swiper -->
+    <div id="poster" class="d-flex justify-content-around shadow">
+      <div class="d-flex flex-column justify-content-center text-center">
+        <h2>
+          Афиша
+        </h2>
+        <h3 class="h5">
+          на 10 июля, пятница
+        </h3>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/img1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/img2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/img3.png" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+  <!-- main -->
+    <div class="container w-75 d-flex flex-column align-items-center pl-5 pr-5 mb-5">
+      <h3 class="text-center mt-5 mb-5">Сегодня в кино</h3>
+      <div class="d-flex justify-content-around flex-wrap mb-3">
+        <!-- movie card -->
+        <div onhover="jQuery('#mask').hide()" class="card mr-2 mb-3" style="width: 13rem;">
+          <a href="./movie.html">
+            <img src="./img/posters/img1.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body text-center">
+            <a href="./movie.html">
+                <h6 class="card-title text-body">Лесси. Возвращение домой 6+</h6>
+            </a>
+                <span class="card-text">12:20</span>
+                <span class="card-text">14:50</span>
+                <span class="card-text">17:10</span>
+          </div>
+        </div>
+
+        <div onhover="jQuery('#mask').hide()" class="card mr-2 mb-3" style="width: 13rem;">
+          <img src="./img/posters/img1.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h6 class="card-title">Лесси. Возвращение домой</h6>
+            <span class="card-text">12:20</span>
+            <span class="card-text">14:50</span>
+            <span class="card-text">17:10</span>
+          </div>
+        </div>
+        <div onhover="jQuery('#mask').hide()" class="card mr-2 mb-3" style="width: 13rem;">
+          <img src="./img/posters/img1.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h6 class="card-title">Лесси. Возвращение домой</h6>
+            <span class="card-text">12:20</span>
+            <span class="card-text">14:50</span>
+            <span class="card-text">17:10</span>
+          </div>
+        </div>
+        <div onhover="jQuery('#mask').hide()" class="card mr-2 mb-3" style="width: 13rem;">
+          <img src="./img/posters/img1.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h6 class="card-title">Лесси. Возвращение домой</h6>
+            <span class="card-text">12:20</span>
+            <span class="card-text">14:50</span>
+            <span class="card-text">17:10</span>
+          </div>
+        </div>
+        <div onhover="jQuery('#mask').hide()" class="card mr-2 mb-3" style="width: 13rem;">
+          <img src="./img/posters/img1.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h6 class="card-title">Лесси. Возвращение домой</h6>
+            <span class="card-text">12:20</span>
+            <span class="card-text">14:50</span>
+            <span class="card-text">17:10</span>
+          </div>
+        </div>
+        <div onhover="jQuery('#mask').hide()" class="card mr-2 mb-3" style="width: 13rem;">
+          <img src="./img/posters/img1.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h6 class="card-title">Лесси. Возвращение домой</h6>
+            <span class="card-text">12:20</span>
+            <span class="card-text">14:50</span>
+            <span class="card-text">17:10</span>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-warning">
+        <i class="icofont-film pr-2"></i>
+        Забронировать
+      </button>
+    </div>
+    <hr>
+  <!-- footer -->
+    <footer>
+      <div class="d-flex justify-content-around align-items-center mb-4">
+        <img src="img/logo.png" alt="Кинотеатр Люмьер логотип" id="footer--logo">
+        <div class="d-flex flex-column align-items-center">
+          <img class="mb-2" src="./img/location.png" alt="location icon">
+          <span>г. Казань,</span><span>ул. Проспект Победы 36</span>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <img class="mb-3" src="./img/phone.png" alt="location icon">
+          <a class="text-dark" href="tel:+79033130270" >8-800-700-00-00</a>
+        </div>
+        <div class="d-flex align-items-center">
+          <a href="https://vk.com/id606238890" class="text-decoration-none">
+            <i class="icofont-vk mr-2 text-body"></i>
+          </a>
+          <a href="https://www.instagram.com/lumiere.simbirsoft/" class="text-decoration-none" style="height: 27px;">
+            <i class="icofont-instagram text-body"></i>
+          </a>
+        </div>
+      </div>
+      <div class="text-center mb-2">
+        <small class="text-muted">&copy; 2020 АО "Люмьер"</small>
+      </div>
+    </footer>  
+  
+  <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+          delay: 5000,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+</body>
+</html>

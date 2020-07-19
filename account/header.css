@@ -1,0 +1,63 @@
+
+.information{
+  margin: 0 auto;
+  background: rgba(13, 47, 196, 0.9);
+  width: calc(1px + 125vmin);
+  height: 500px;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.82)
+}
+
+#home{
+	position: absolute;
+	left: 20%;
+	top:51%;
+}
+
+#table{
+	position: relative;
+	top:10%;
+
+}
+
+#preview{
+	position: relative;
+	left: 5%;
+	top:0%;
+
+}
+
+.value{
+	padding-left: 10%;
+}
+
+#showing{
+	position: relative;
+	left: 50%;
+	top:-5%;
+}
+#films{
+	position: relative;
+	left: 50%;
+}
+#show{
+	position: relative;
+	right: -5%;
+	bottom: 200px;
+}
+
+.art{
+	position: relative;
+	left: -10%;
+	bottom: 100px;
+}
+
+
+
+
+
+
+
+
+

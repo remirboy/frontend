@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+   input:checked +  {
+    background: #fc0;
+   }
+  </style>
+</head>
+<body>
+<table id="places">
+         <tr>
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>  
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>
+        </tr>
+        <tr>
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>  
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>
+        </tr>
+
+        <tr>
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>  
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>
+        </tr>
+
+        <tr>
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>  
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>
+        </tr>
+
+        <tr>
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>  
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td> 
+        <td class="checkbox"><input type="checkbox" placeholder="1:1" name=""></td>
+        </tr>
+        </table>
+
+        <script>
+    var td = document.body.children[0];
+    // td.rows[0].cells[1].style.background = 'red';
+    // td.rows[td.children[0].children.length - 1].style.background = 'red';
+    for (var i = 0; i <td.children[0].children.length; i++){
+        for (var j = 0; j < td.children[0].children.length; j++) {
+            td.rows[i].cells[j].style.border = 'green';
+        }
+    }
+</script></body>
+</html>
