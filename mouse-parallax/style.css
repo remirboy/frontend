@@ -1,0 +1,28 @@
+.mouse_paralax_background{
+	position: absolute;
+	width: 110%;
+	height: 110%;
+	z-index: -1;
+	background-image: url(images/1.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.mouse_paralax{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.mouse_paralax_content{
+	color: pink;
+	font-size: 250px;
+	text-shadow: 4px 4px 6px #000
+}
+
+body{
+	margin: 0;
+}

@@ -1,0 +1,38 @@
+.paralax_image{
+	height: 100vh;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.paralax_image:nth-child(1){
+	background-image: url(images/1.jpg);
+}
+
+.paralax_image:nth-child(2){
+	background-image: url(images/2.jpg);
+}
+
+.paralax_image:nth-child(3){
+	background-image: url(images/3.jpg);
+}
+
+.paralax_image:nth-child(4){
+	background-image: url(images/4.jpg);
+}
+
+.header{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	font-family: sans-serif;
+	font-size: 72px;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
