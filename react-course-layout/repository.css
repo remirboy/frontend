@@ -1,0 +1,165 @@
+:root {
+    --main-size: 24px;
+    --icon-size: 64px;
+    --observer-margin: 110px;
+    --observer-size:24px;font-style: normal;
+    --font-weight: normal;
+    --font-size: 20px;
+    --line-height: 23px;
+    --display: flex;
+    --align-items: center;
+    --text-align: center;
+    --color: #888181;
+    --font-family: Roboto;
+}
+
+div.author_repository{
+    position: absolute;
+    top: 15%;
+    margin: auto;
+    height: 50px;
+    width: 1000px;
+}
+
+div.profile_picture{
+    position: absolute;
+    top: 5%;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background: url(/Users/remir/Downloads/web-developer.png);
+}
+
+#profile{
+    position: absolute;
+    top: 12.5%;
+    left: 90px;
+    width: 100%;
+    font-size: var(--main-size);
+}
+
+.line{
+    position: absolute;
+    top: 25%;
+    width: 99%;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px solid #333;
+}
+
+.repositories{
+    position: absolute;
+    top: 30%;
+}
+
+.repository{
+    margin-top: 25px;
+}
+
+div.info{
+    position: absolute;
+    margin: 30px;
+}
+
+.repository_name{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0E4FF5;
+    font-family: Roboto;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 200px;
+}
+.repository_language{
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    display: var(--display);
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    color: var(--color);
+    font-family: var(--font-family);
+    position: absolute;
+    top: 80%;
+    margin-left: 5px;
+}
+
+.repository_update{
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    display: var(--display);
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    color: var(--color);
+    font-family: var(--font-family);
+    position: absolute;
+    top: 80%;
+    left: 200px;
+    width: 200px;
+}
+
+div.pictures{
+    position: absolute;
+    left: 20%;
+    height: 100%;
+    width: 800px;
+}
+
+div.branch{
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    font-size: 50pt;
+    background: url(/Users/remir/Downloads/code-fork-symbol.png);
+    width: var(--icon-size);
+    height: var(--icon-size);
+}
+
+.branch_count{
+    position: absolute;
+    left: 20%;
+    font-weight: var(--font-weight);
+    font-size: 24px;
+    line-height: var(--line-height);
+    display: var(--display);
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    color: var(--color);
+    font-family: var(--font-family);
+}
+
+
+div.star{
+    position: absolute;
+    top: 0;
+    left: 150%;
+    font-size: 50pt;
+    width: var(--icon-size);
+    height: var(--icon-size);
+}
+
+.star_count{
+    position: absolute;
+    left: 40%;
+    font-weight: var(--font-weight);
+    font-size: 24px;
+    line-height: var(--line-height);
+    display: var(--display);
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    color: var(--color);
+    font-family: var(--font-family);
+}
+
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+body,div{
+    height:100px;
+  }

@@ -1,0 +1,90 @@
+:root {
+    --main-color: rgba(1, 6, 21, 0.7);
+}
+
+header{
+  position: absolute;
+  z-index:1;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  background:var(--main-color); 
+}
+div.git_logo{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 30px;
+  top: 16px;
+  background: url(./react-github-client/public/git-logo-1.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.searcher{
+  position: absolute;
+  width: 50%;
+  height: 60px;
+  left: 180px;
+  font-size: 30px;
+  top: 16px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+}
+
+.back{
+  position: absolute;
+  width: 135px;
+  height: 70px;
+  left: 85%;
+  top: 16px;
+  font-size: 25px;
+  color: white;
+  background: #010615;
+/* Gray 6 */
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+}
+.back:hover{  
+    background: var(--main-color);
+}
+.login{
+  position: absolute;
+  width: 135px;
+  height: 70px;
+  left: 72%;
+  top: 20px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+footer{
+  position: absolute; 
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  bottom: -20%;
+  background: var(--main-color);
+  z-index: 99999;
+}
+.akvelon{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 250px;
+  height: 40px;
+  font-family: Roboto;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}

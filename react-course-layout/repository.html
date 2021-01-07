@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Profile</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='repository.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- header should be in component -->
+    <header class="header">
+        <form>
+        <div class="header git_logo"></div>
+        <!-- Input should be in component -->
+        <input class="header searcher">
+        <a class="header login" href="">Log In</a>
+        <button class="header back">Back</button>
+    </form>
+    </header>
+     <!-- author_repository should be in component -->
+    <div class="author_repository" scrolling="yes">
+        <div class="user profile_picture"></div>
+        <span id="profile"><a href>remirboy's</a> repositories</span>
+    </div>
+    <!--repository should be in component-->
+    <hr class="line">
+    <div class="repositories">
+    <div class="repository">
+        <div class="repository info">
+        <span class="repository_name"><a href="">C++ work</a></span>
+        <span class="repository_language">C++</span>
+        <span class="repository_update">Updated on 17 Sep</span>
+        </div>
+        <div class="repository pictures">
+            <div class="repository pictures branch">
+                <div class="branch_picture"></div>
+                <span class="branch_count">11</span>
+            </div>    
+            <div class="repository pictures star">
+                <div class="star_picture">&#9733;</div>
+                <span class="star_count">5</span>
+            </div>
+        </div>
+    </div>
+    <br><br><hr class="line">
+    <div class="repository">
+        <div class="repository info">
+        <span class="repository_name"><a href="">Blog</a></span>
+        <span class="repository_language">Ruby</span>
+        <span class="repository_update">Updated on 27 Oct</span>
+        </div>
+        <div class="repository pictures">
+            <div class="repository pictures branch">
+                <div class="branch_picture"></div>
+                <span class="branch_count">11</span>
+            </div>    
+            <div class="repository pictures star">
+                <div class="star_picture">&#9733;</div>
+                <span class="star_count">5</span>
+            </div>
+        </div>
+        <br><br><hr class="line">
+    </div>
+</div>
+     <!-- footer should be in component -->
+    <footer class="footer">
+        <a class="footer akvelon">2020 Akvelon, Inc.</a>
+    </footer>
+</body>
+</html>

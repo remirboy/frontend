@@ -1,0 +1,183 @@
+:root {
+    --main-size: 42px;
+    --icon-size: 64px;
+    --observer-margin: 110px;
+    --observer-size:24px;
+}
+
+  
+div.picture{
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 15%;
+    left: 4.5%;
+    background: url(/Users/remir/Downloads/man-with-laptop.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+div.observer{
+    position: absolute;
+    left: 9%;
+    top: 55%;
+    z-index:1;
+}
+
+div.observer_picture{
+    position: absolute;
+    margin-left: 20px;
+    top: -60%;
+    background: url(/Users/remir/Downloads/two-contacts.png);
+    width: var(--icon-size);
+    height: var(--icon-size);
+}
+
+div.followers{
+    position: absolute;
+    top: 10%;
+    font-size: var(--observer-size);
+}
+
+#followers_count{
+    position: absolute;
+    left: var(--observer-margin);
+    top: 10%;
+    font-size: var(--observer-size);
+}
+
+div.following{
+    position: absolute;
+    top: 40%;
+    font-size: var(--observer-size);
+}
+
+#following_count{
+    position: absolute;
+    top: 40%;
+    left: var(--observer-margin);
+    font-size: var(--observer-size);
+}
+
+
+div.star{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index:1;
+}
+div.star_picture{
+    position: absolute;
+    top: 85%;
+    font-size: 50pt;
+    width: var(--icon-size);
+    height: var(--icon-size);
+}
+#star_count{
+    position: absolute;
+    top: 145%;
+    margin: 20px;
+    font-size: var(--main-size);
+}
+
+div.repositories{
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    z-index:1;
+}
+
+div.repositories_picture{
+    position: absolute;
+    top: 80%;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background: url(/Users/remir/Downloads/folders.png);
+}
+
+#repositories_count{
+    position: absolute;
+    top: 145%;
+    margin: 7px;
+    font-size: var(--main-size);
+    
+}
+
+div.bio{
+    position: absolute;
+    left: 50%;
+    height: 100%;
+}
+
+div.username_picture{
+    position: absolute;
+    top: 10%;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background: url(/Users/remir/Downloads/id-pass.png);
+}
+
+#username{
+    position: absolute;
+    top: 12.5%;
+    left: 90px;
+    width: 300px;
+    font-size: var(--main-size);
+}
+
+div.profile_picture{
+    position: absolute;
+    top: 30%;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background: url(/Users/remir/Downloads/web-developer.png);
+}
+
+#profile{
+    position: absolute;
+    width: 15%;
+    top: 30%;
+    left: 90px;
+    font-size: var(--main-size);
+}
+
+
+div.biography_picture{
+    position: absolute;
+    top: 50%;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background: url(/Users/remir/Downloads/file.png);
+}
+
+#biography{
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 90px;
+    font-size: var(--main-size);
+}
+
+div.email_picture{
+    position: absolute;
+    top: 80%;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background: url(/Users/remir/Downloads/email.png);
+}
+
+#email{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    left: 90px;
+    font-size: var(--main-size);
+}
+
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+body,div{
+    height:100px;
+  }
