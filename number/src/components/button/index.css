@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    height: 100vh;
+}
+
+.counter{
+    padding: 20px;
+    display: flex;
+    align-self: center;
+    background-color: blue;
+}
+
+.counter_btn{
+    padding: 0;
+    height: 140px;
+    font-family: sans-serif;
+    font-size: 120px;
+    color: #113344;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.counter_count{
+    min-width: 140px;
+    font-family: sans-serif;
+    font-size: 120px;
+    text-align: center;
+    color:chocolate;
+}

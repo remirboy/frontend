@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="button.css">
+        <script src="script.js"></script>
+        <script src="modal.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script type="text/javascript" src=" https://code.jquery.com/jquery-1.11.2.js "></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      
+    </head>
+    <body>
+        <div id="table">
+        <div align="center" class="header">
+        <a class="row row_header">
+            <div class="cell cell_back">
+                <a href="#"  onclick="destroyLastTrip()" class="previous_round">&#8249;</a>
+            </div>
+              <div class="cell cell_station_header">
+                <b id="station">Остановка</b>
+              </div>
+              
+              <div class="cell cell_on-off">
+                <label class="power">
+                    <input onclick="destroyTrips();" type="checkbox">
+                    <div>
+                        <svg viewBox="0 0 44 44">
+                            <path d="M22,6 C31,6 38,13 38,22 C38,31 31,38 22,38 C13,38 6,31 6,22 C6,13 13,6 22,6 L22,28" id="path"></path>
+                        </svg>
+                    </div>
+                </label>
+                <a class="dribbble" href="https://dribbble.com/shots/5255048-On-Off-Toggle" target="_blank"><img src="https://cdn.dribbble.com/assets/dribbble-ball-1col-dnld-e29e0436f93d2f9c430fde5f3da66f94493fdca66351408ab0f96e2ec518ab17.png" alt=""></a>
+              </div>
+            </a>
+        </div>
+        <div align="center" class="content">
+            <a class="row row_main" href="#">
+              <div class="cell cell_station">
+                Площадь тукая
+              </div>
+              <div class="cell cell_num">
+                66
+              </div>
+            </a>
+            <a class="row row_main" href="#">
+            <div class="cell cell_station" onclick="addTrip(this.value);">Кремлевская</div>
+            <div class="cell cell_num">22</div>
+              </a>
+              <a class="row row_main"  onclick="addTrip(this.value);" href="#">
+                <div class="cell cell_station">Козья слобода</div>
+                <div class="cell cell_num">33,3</div>
+              </a>
+              <a class="row row_main" onclick="addTrip(this.value);" href="#">
+                <div class="cell cell_station">Ометьево</div>
+                <div class="cell cell_num">66</div>
+              </a>
+              <a class="row row_main" onclick="addTrip(this.value);" href="#">
+                <div class="cell cell_station">Суконная слобода</div>
+                <div class="cell cell_num">66</div>
+              </a>
+              <a class="row row_main" onclick="addTrip(this.value);" href="#">
+                <div class="cell cell_station">ЭЭЭЭ</div>
+                <div class="cell cell_num">66,2</div>
+              </a>
+            </div>
+            <div class="submit">
+              <a class="row row_main" href="#" align="center">
+                <div class="cell cell_button" >
+                 <div class="button" onclick="modal();" id="start">Поехали</button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div  class="hide" id="hide">
+            <ul id="array">You are go to:</ul>
+        </div>
+    </body>
+</html>

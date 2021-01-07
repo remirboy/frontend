@@ -21,7 +21,7 @@ body{
 	display: block;
 }
 
-.tooltip_element{
+.cell_station_header{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@ body{
   z-index: 1;
 }
 
-.tooltip_info::before{
+.cell_station_header::before{
   content: '';
   position: absolute;
   left: -10px;
@@ -50,7 +50,7 @@ body{
   bottom: -5px;
 }
 
-.tooltip_info::after{
+.cell_station_header::after{
   content: '';
   position: absolute;
   border: 0 solid transparent;
