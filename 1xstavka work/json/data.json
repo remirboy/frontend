@@ -1,0 +1,2660 @@
+data = {
+"Matchs": {
+    "Europe": {
+        "UEFA Champions League": {
+            "1615924800": {
+                "Manchester City": {
+                    "melbet": {
+                        "BK": "melbet",
+                        "Time": {
+                            "xstavka": [
+                                {
+                                    "CN": "Europe",
+                                    "BK": "xstavka",
+                                    "Time": 1615924800,
+                                    "Division": "UEFA Champions League",
+                                    "O1": "Manchester City",
+                                    "O2": "Borussia Monchengladbach",
+                                    "LR": "Лига Чемпионов УЕФА",
+                                    "O1R": "Манчестер Сити",
+                                    "O2R": "Боруссия Менхенгладбах",
+                                    "Value1": 1.25,
+                                    "Value2": 6.85,
+                                    "Value3": 12
+                                },
+                                {
+                                    "CN": "Europe",
+                                    "BK": "xstavka",
+                                    "Time": 1615924800,
+                                    "Division": "UEFA Champions League",
+                                    "O1": "Real Madrid",
+                                    "O2": "Atalanta",
+                                    "LR": "Лига Чемпионов УЕФА",
+                                    "O1R": "Реал Мадрид",
+                                    "O2R": "Аталанта",
+                                    "Value1": 2.29,
+                                    "Value2": 3.68,
+                                    "Value3": 3.14
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+},
+    "Live": {
+        "Africa": {
+            "CAF Champions League": {
+                "1615898700": {
+                    "Al-Hilal Omdurman": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "AL Hilal",
+                            "O2": "CR Belouizdad",
+                            "Value1": 2.7,
+                            "Value2": 2.05,
+                            "Value3": 4.5
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Al Hilal Omdurman",
+                            "O2": "CR Belouizdad",
+                            "Value1": 2.9,
+                            "Value2": 2.02,
+                            "Value3": 4.4
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Al-Hilal Omdurman",
+                            "O2": "CR Belouizdad",
+                            "Value1": 2.6,
+                            "Value2": 2.16,
+                            "Value3": 4.73
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Al-Hilal Omdurman",
+                            "O2": "CR Belouizdad",
+                            "O1R": "Аль-Хиляль Омдурман",
+                            "O2R": "Белуиздад",
+                            "LR": "Лига Чемпионов КАФ",
+                            "Division": "CAF Champions League",
+                            "Value1": 2.51,
+                            "Value2": 2.22,
+                            "Value3": 4.77
+                        }
+                    },
+                    "Simba SC": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Simba SC",
+                            "O2": "Al-Merrikh SC (Omdurman)",
+                            "Value1": 1,
+                            "Value2": 13,
+                            "Value3": 65
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Simba SС",
+                            "O2": "Al Merreikh Omdurman",
+                            "Value1": "-",
+                            "Value2": "-",
+                            "Value3": "-"
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Simba SC",
+                            "O2": "Al-Merrikh",
+                            "Value1": 2.025,
+                            "Value2": 1.825,
+                            "Value3": 1.64
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Simba SC",
+                            "O2": "Al-Merrikh",
+                            "O1R": "Симба Спортс Клуб",
+                            "O2R": "Аль Мерреих",
+                            "LR": "Лига Чемпионов КАФ",
+                            "Division": "CAF Champions League",
+                            "Value1": 22,
+                            "Value2": 44,
+                            "Value3": 14.7
+                        }
+                    }
+                },
+                "1615899600": {
+                    "AS Vita Club": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Al Nasr Dubai",
+                            "O2": "Al Ittihad Kalba",
+                            "Value1": 1.45,
+                            "Value2": 4.02,
+                            "Value3": 7.54
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "AS Vita Club",
+                            "O2": "AL Ahly SC (Egy)",
+                            "Value1": 50,
+                            "Value2": 10,
+                            "Value3": 1.03
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Al Nasr Dubai",
+                            "O2": "Al Ittihad Kalba",
+                            "Value1": 1.45,
+                            "Value2": 4.05,
+                            "Value3": 7.6
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "AS Vita Club",
+                            "O2": "Al Ahly Cairo",
+                            "O1R": "АС Вита Клуб",
+                            "O2R": "Аль-Ахли Каир",
+                            "LR": "Лига Чемпионов КАФ",
+                            "Division": "CAF Champions League",
+                            "Value1": 36,
+                            "Value2": 15,
+                            "Value3": 1.04
+                        }
+                    }
+                }
+            }
+        },
+        "Malaysia": {
+            "Malaysia. SuperLeague": {
+                "1615899600": {
+                    "Pahang": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Pahang",
+                            "O2": "Sabah",
+                            "Value1": 1.9,
+                            "Value2": 2.67,
+                            "Value3": 6.37
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Pahang",
+                            "O2": "Sabah",
+                            "Value1": 1.85,
+                            "Value2": 2.6,
+                            "Value3": 6.2
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Pahang",
+                            "O2": "Sabah",
+                            "O1R": "Паханг",
+                            "O2R": "Сабах",
+                            "LR": "Чемпионат Малайзии. Суперлига",
+                            "Division": "Malaysia. SuperLeague",
+                            "Value1": 1.97,
+                            "Value2": 2.58,
+                            "Value3": 6.18
+                        }
+                    },
+                    "Penang": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Penang",
+                            "O2": "UiTM",
+                            "Value1": 2.02,
+                            "Value2": 2.58,
+                            "Value3": 5.69
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Pulau Pinang",
+                            "O2": "UiTM",
+                            "Value1": 2.07,
+                            "Value2": 2.5,
+                            "Value3": 5.1
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Penang",
+                            "O2": "UiTM",
+                            "O1R": "Пенанг ФА",
+                            "O2R": "УиТМ",
+                            "LR": "Чемпионат Малайзии. Суперлига",
+                            "Division": "Malaysia. SuperLeague",
+                            "Value1": 1.97,
+                            "Value2": 2.58,
+                            "Value3": 6.18
+                        }
+                    }
+                }
+            },
+            "Malaysia. Premier League": {
+                "1615899600": {
+                    "Skuad Project": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Skuad Project",
+                            "O2": "Polis Di-Raja Malaysia",
+                            "Value1": 28,
+                            "Value2": 13.9,
+                            "Value3": 1.04
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Skuad Project",
+                            "O2": "PDRM",
+                            "Value1": 54,
+                            "Value2": 12,
+                            "Value3": 1.04
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Skuad Project",
+                            "O2": "Polis Di-Raja Malaysia",
+                            "O1R": "Скуад Проджект",
+                            "O2R": "ПДРМ",
+                            "LR": "Чемпионат Малайзии. Премьер Дивизион",
+                            "Division": "Malaysia. Premier League",
+                            "Value1": 28,
+                            "Value2": 13.9,
+                            "Value3": 1.04
+                        }
+                    },
+                    "Terenganu II": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Terenganu II",
+                            "O2": "Kelantan",
+                            "Value1": 2.37,
+                            "Value2": 2.47,
+                            "Value3": 4.12
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Terengganu B",
+                            "O2": "Kelantan",
+                            "Value1": 2.2,
+                            "Value2": 2.5,
+                            "Value3": 4.4
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Terenganu II",
+                            "O2": "Kelantan",
+                            "O1R": "Теренггану II",
+                            "O2R": "Келантан",
+                            "LR": "Чемпионат Малайзии. Премьер Дивизион",
+                            "Division": "Malaysia. Premier League",
+                            "Value1": 2.37,
+                            "Value2": 2.47,
+                            "Value3": 4.12
+                        }
+                    },
+                    "Sarawak United": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Sarawak United",
+                            "O2": "Kuching FA",
+                            "Value1": 1.05,
+                            "Value2": 12.7,
+                            "Value3": 26
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Sarawak United",
+                            "O2": "Kuching",
+                            "Value1": 1.02,
+                            "Value2": 17,
+                            "Value3": 45
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Sarawak United",
+                            "O2": "Kuching FA",
+                            "O1R": "Саравак Юнайтед",
+                            "O2R": "Кучинг ФА",
+                            "LR": "Чемпионат Малайзии. Премьер Дивизион",
+                            "Division": "Malaysia. Premier League",
+                            "Value1": 1.05,
+                            "Value2": 12.7,
+                            "Value3": 26
+                        }
+                    }
+                }
+            }
+        },
+        "Egypt": {
+            "Egypt. Premier League. Women": {
+                "1615899600": {
+                    "Delphi (Women)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Brazil (SSL) Women",
+                            "O2": "Russia (SSL) Women",
+                            "Value1": 2.056,
+                            "Value2": 9.28,
+                            "Value3": 2.056
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Delphi SC",
+                            "O2": "Kafr Saad",
+                            "Value1": 2.15,
+                            "Value2": 3.2,
+                            "Value3": 3.15
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Delphi (w)",
+                            "O2": "Kafr Saad (w)",
+                            "Value1": 2.2,
+                            "Value2": 3.3,
+                            "Value3": 3.05
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Delphi (Women)",
+                            "O2": "Kafr Saad (Women)",
+                            "O1R": "Делфи (жен)",
+                            "O2R": "Кафр-Саад (жен)",
+                            "LR": "Чемпионат Египта. Премьер-лига. Женщины",
+                            "Division": "Egypt. Premier League. Women",
+                            "Value1": 2.25,
+                            "Value2": 3.33,
+                            "Value3": 3.07
+                        }
+                    },
+                    "Al Tayaran (Women)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Real Zaragoza (Amateur)",
+                            "O2": "Celta (Amateur)",
+                            "Value1": 2.12,
+                            "Value2": 5.9,
+                            "Value3": 2.275
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Al Tayran (w)",
+                            "O2": "El Haram (w)",
+                            "Value1": 1.25,
+                            "Value2": "-",
+                            "Value3": "-"
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Al Tayaran (Women)",
+                            "O2": "El Haram (Women)",
+                            "O1R": "Аль-Тайаран (жен)",
+                            "O2R": "Эль-Харам (жен)",
+                            "LR": "Чемпионат Египта. Премьер-лига. Женщины",
+                            "Division": "Egypt. Premier League. Women",
+                            "Value1": 1.2,
+                            "Value2": 6.02,
+                            "Value3": 14.2
+                        }
+                    },
+                    "Wadi Degla (Women)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "France team (Women)",
+                            "O2": "Portugal team (Women)",
+                            "Value1": 1.19,
+                            "Value2": 7.32,
+                            "Value3": 9.43
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Wadi Degla (w)",
+                            "O2": "Al Maadi (w)",
+                            "Value1": "-",
+                            "Value2": "-",
+                            "Value3": "-"
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Wadi Degla (Women)",
+                            "O2": "Maadi and Yacht Club (Women)",
+                            "O1R": "Вади Дегла (жен)",
+                            "O2R": "Маади энд Яхт Клуб (жен)",
+                            "LR": "Чемпионат Египта. Премьер-лига. Женщины",
+                            "Division": "Egypt. Premier League. Women",
+                            "Value1": 25,
+                            "Value2": 25,
+                            "Value3": 1.736
+                        }
+                    }
+                }
+            }
+        },
+        "World": {
+            "Club Friendlies": {
+                "1615899600": {
+                    "Nosta Novotroitsk": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Nosta Novotroitsk",
+                            "O2": "StavAgroSouz Ivanovskoe",
+                            "Value1": 1.3,
+                            "Value2": 4.81,
+                            "Value3": 10.5
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615899600,
+                            "O1": "Nosta Novotroitsk",
+                            "O2": "StavAgroSouz Ivanovskoe",
+                            "O1R": "Носта",
+                            "O2R": "СтавАгроСоюз Ивановское",
+                            "LR": "Товарищеские матчи клубов",
+                            "Division": "Club Friendlies",
+                            "Value1": 1.31,
+                            "Value2": 4.73,
+                            "Value3": 10.6
+                        }
+                    }
+                },
+                "1615901400": {
+                    "Ratnam": {
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Ratnam Sri Lanka",
+                            "O2": "Red Star Sri Lanka",
+                            "Value1": 5.3,
+                            "Value2": 2.9,
+                            "Value3": 1.83
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Ratnam",
+                            "O2": "Red Stars",
+                            "Value1": 5.5,
+                            "Value2": 2.75,
+                            "Value3": 1.91
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "Ratnam",
+                            "O2": "Red Stars",
+                            "O1R": "Ратнам",
+                            "O2R": "Ред Старс",
+                            "LR": "Товарищеские матчи клубов",
+                            "Division": "Club Friendlies",
+                            "Value1": 5.5,
+                            "Value2": 2.75,
+                            "Value3": 1.91
+                        }
+                    }
+                }
+            },
+            "ACL Indoor": {
+                "1615903200": {
+                    "Milan (ACL)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Milan (ACL)",
+                            "O2": "Inter (ACL)",
+                            "Value1": 1.61,
+                            "Value2": 6.73,
+                            "Value3": 3.2
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Milan (ACL)",
+                            "O2": "Inter (ACL)",
+                            "O1R": "Милан (ACL)",
+                            "O2R": "Интер (ACL)",
+                            "LR": "ACL Indoor",
+                            "Division": "ACL Indoor",
+                            "Value1": 1.616,
+                            "Value2": 6.86,
+                            "Value3": 3.155
+                        }
+                    }
+                }
+            },
+            "USSR. 3x3. Division B": {
+                "1615903200": {
+                    "Ukraine (3х3)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Sweden (3х3)",
+                            "O2": "Turkey (3х3)",
+                            "Value1": 2.69,
+                            "Value2": 6.45,
+                            "Value3": 1.805
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Ukraine (3х3)",
+                            "O2": "Russia (3x3)",
+                            "O1R": "Украина (3х3)",
+                            "O2R": "Россия (3x3)",
+                            "LR": "USSR. 3x3. Division B",
+                            "Division": "USSR. 3x3. Division B",
+                            "Value1": 1.11,
+                            "Value2": 10,
+                            "Value3": 9.77
+                        }
+                    }
+                }
+            },
+            "FIFA 21. Amateur daily league": {
+                "1615903200": {
+                    "Real Madrid (Kwins)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Real Madrid (Kwins)",
+                            "O2": "Dortmund (WorldFocus)",
+                            "Value1": 1.23,
+                            "Value2": 10,
+                            "Value3": 5.06
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Real Madrid (Kwins)",
+                            "O2": "Dortmund (WorldFocus)",
+                            "O1R": "Real Madrid (Kwins)",
+                            "O2R": "Dortmund (WorldFocus)",
+                            "LR": "FIFA 21. Amateur daily league",
+                            "Division": "FIFA 21. Amateur daily league",
+                            "Value1": 1.23,
+                            "Value2": 10,
+                            "Value3": 5.07
+                        }
+                    }
+                }
+            },
+            "FIFA 21. Volta daily league": {
+                "1615903200": {
+                    "Manchester United (Louis)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Manchester United (Louis)",
+                            "O2": "Real Madrid (Dragon)",
+                            "Value1": "-",
+                            "Value2": "-",
+                            "Value3": "-"
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Manchester United (Louis)",
+                            "O2": "Real Madrid (Dragon)",
+                            "O1R": "Manchester United (Louis)",
+                            "O2R": "Real Madrid (Dragon)",
+                            "LR": "FIFA 21. Volta daily league",
+                            "Division": "FIFA 21. Volta daily league",
+                            "Value1": "-",
+                            "Value2": "-",
+                            "Value3": "-"
+                        }
+                    }
+                }
+            },
+            "Soap Soccer League": {
+                "1615902300": {
+                    "Netherlands (SSL)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Netherlands (SSL)",
+                            "O2": "Republic of Ireland (SSL)",
+                            "Value1": 1.405,
+                            "Value2": 9.9,
+                            "Value3": 3.72
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902300,
+                            "O1": "Netherlands (SSL)",
+                            "O2": "Republic of Ireland (SSL)",
+                            "O1R": "Нидерланды (SSL)",
+                            "O2R": "Ирландия (SSL)",
+                            "LR": "Soap Soccer League",
+                            "Division": "Soap Soccer League",
+                            "Value1": 1.408,
+                            "Value2": 9.94,
+                            "Value3": 3.71
+                        }
+                    }
+                },
+                "1615903800": {
+                    "Brazil (SSL) Women": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Brazil (SSL) Women",
+                            "O2": "Russia (SSL) Women",
+                            "Value1": 2.056,
+                            "Value2": 9.28,
+                            "Value3": 2.056
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903800,
+                            "O1": "Brazil (SSL) Women",
+                            "O2": "Russia (SSL) Women",
+                            "O1R": "Бразилия (SSL) жен",
+                            "O2R": "Россия (SSL) жен",
+                            "LR": "Soap Soccer League",
+                            "Division": "Soap Soccer League",
+                            "Value1": 2.056,
+                            "Value2": 9.28,
+                            "Value3": 2.056
+                        }
+                    }
+                }
+            },
+            "PRO Soccer League": {
+                "1615903201": {
+                    "Everton (3х3)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Sweden (3х3)",
+                            "O2": "Turkey (3х3)",
+                            "Value1": 2.69,
+                            "Value2": 6.45,
+                            "Value3": 1.805
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903201,
+                            "O1": "Everton (3х3)",
+                            "O2": "Tottenham (3х3)",
+                            "O1R": "Эвертон (3х3)",
+                            "O2R": "Тоттенхэм (3х3)",
+                            "LR": "PRO Soccer League",
+                            "Division": "PRO Soccer League",
+                            "Value1": 14.2,
+                            "Value2": 10,
+                            "Value3": 1.015
+                        }
+                    }
+                }
+            },
+            "PRO Soccer League 2": {
+                "1615902767": {
+                    "RasenBallsport Leipzig (3х3)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "RasenBallsport Leipzig (3х3)",
+                            "O2": "Rangers (3х3)",
+                            "Value1": 3.035,
+                            "Value2": 4.92,
+                            "Value3": 1.825
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902767,
+                            "O1": "RasenBallsport Leipzig (3х3)",
+                            "O2": "Rangers (3х3)",
+                            "O1R": "РБ Лейпциг (3х3)",
+                            "O2R": "Рейнджерс (3х3)",
+                            "LR": "PRO Soccer League 2",
+                            "Division": "PRO Soccer League 2",
+                            "Value1": 2.95,
+                            "Value2": 4.94,
+                            "Value3": 1.85
+                        }
+                    }
+                }
+            },
+            "Student League": {
+                "1615903260": {
+                    "ARCH": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "ARCH",
+                            "O2": "BIZ",
+                            "Value1": 2.81,
+                            "Value2": 6.16,
+                            "Value3": 1.775
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903260,
+                            "O1": "ARCH",
+                            "O2": "BIZ",
+                            "O1R": "ARCH",
+                            "O2R": "BIZ",
+                            "LR": "Student League",
+                            "Division": "Student League",
+                            "Value1": 2.816,
+                            "Value2": 6.19,
+                            "Value3": 1.77
+                        }
+                    }
+                }
+            },
+            "Student League 2": {
+                "1615903260": {
+                    "LISSABON": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "LISSABON",
+                            "O2": "ROME",
+                            "Value1": 2.595,
+                            "Value2": 5.35,
+                            "Value3": 1.965
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903260,
+                            "O1": "LISSABON",
+                            "O2": "ROME",
+                            "O1R": "LISSABON",
+                            "O2R": "ROME",
+                            "LR": "Student League 2",
+                            "Division": "Student League 2",
+                            "Value1": 2.592,
+                            "Value2": 5.38,
+                            "Value3": 1.965
+                        }
+                    }
+                }
+            },
+            "Table Soccer League": {
+                "1615903260": {
+                    "Argentina (TSL) Women": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Italy (TSL)",
+                            "O2": "Portugal (TSL)",
+                            "Value1": 13,
+                            "Value2": 10,
+                            "Value3": 1.056
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903260,
+                            "O1": "Argentina (TSL) Women",
+                            "O2": "Portugal (TSL) Women",
+                            "O1R": "Аргентина (TSL) жен",
+                            "O2R": "Португалия (TSL) жен",
+                            "LR": "Table Soccer League",
+                            "Division": "Table Soccer League",
+                            "Value1": 1.9,
+                            "Value2": 6.75,
+                            "Value3": 2.46
+                        }
+                    },
+                    "Italy (TSL)/Argentina (TSL) Women": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Italy (TSL)",
+                            "O2": "Portugal (TSL)",
+                            "Value1": 13,
+                            "Value2": 10,
+                            "Value3": 1.056
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903260,
+                            "O1": "Italy (TSL)/Argentina (TSL) Women",
+                            "O2": "Portugal (TSL)/Portugal (TSL) Women",
+                            "O1R": "Италия (TSL)/Аргентина (TSL) жен",
+                            "O2R": "Португалия (TSL)/Португалия (TSL) жен",
+                            "LR": "Table Soccer League",
+                            "Division": "Table Soccer League",
+                            "Value1": 1.94,
+                            "Value2": 1.77,
+                            "Value3": 4.9
+                        }
+                    }
+                },
+                "1615903261": {
+                    "Italy (TSL)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Italy (TSL)",
+                            "O2": "Portugal (TSL)",
+                            "Value1": 13,
+                            "Value2": 10,
+                            "Value3": 1.056
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903261,
+                            "O1": "Italy (TSL)",
+                            "O2": "Portugal (TSL)",
+                            "O1R": "Италия (TSL)",
+                            "O2R": "Португалия (TSL)",
+                            "LR": "Table Soccer League",
+                            "Division": "Table Soccer League",
+                            "Value1": 13.3,
+                            "Value2": 10,
+                            "Value3": 1.056
+                        }
+                    }
+                }
+            },
+            "BudnesLiga LFL 5x5": {
+                "1615902900": {
+                    "Hertha (Amateur)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Real Zaragoza (Amateur)",
+                            "O2": "Celta (Amateur)",
+                            "Value1": 2.12,
+                            "Value2": 5.9,
+                            "Value3": 2.275
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902900,
+                            "O1": "Hertha (Amateur)",
+                            "O2": "Dynamo Dresden (Amateur)",
+                            "O1R": "Герта (люб)",
+                            "O2R": "Динамо Дрезден (люб)",
+                            "LR": "BudnesLiga LFL 5x5",
+                            "Division": "BudnesLiga LFL 5x5",
+                            "Value1": 4.57,
+                            "Value2": 4.95,
+                            "Value3": 1.515
+                        }
+                    }
+                }
+            },
+            "Dragon League 3х3": {
+                "1615902900": {
+                    "Turkey (3х3)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Sweden (3х3)",
+                            "O2": "Turkey (3х3)",
+                            "Value1": 2.69,
+                            "Value2": 6.45,
+                            "Value3": 1.805
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902900,
+                            "O1": "Turkey (3х3)",
+                            "O2": "Austria (3х3)",
+                            "O1R": "Турция (3х3)",
+                            "O2R": "Австрия (3х3)",
+                            "LR": "Dragon League 3х3",
+                            "Division": "Dragon League 3х3",
+                            "Value1": "-",
+                            "Value2": "-",
+                            "Value3": "-"
+                        }
+                    }
+                },
+                "1615903921": {
+                    "Sweden (3х3)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Sweden (3х3)",
+                            "O2": "Turkey (3х3)",
+                            "Value1": 2.69,
+                            "Value2": 6.45,
+                            "Value3": 1.805
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903921,
+                            "O1": "Sweden (3х3)",
+                            "O2": "Turkey (3х3)",
+                            "O1R": "Швеция (3х3)",
+                            "O2R": "Турция (3х3)",
+                            "LR": "Dragon League 3х3",
+                            "Division": "Dragon League 3х3",
+                            "Value1": 2.69,
+                            "Value2": 6.45,
+                            "Value3": 1.805
+                        }
+                    }
+                }
+            },
+            "Dragon League 4х4": {
+                "1615902900": {
+                    "Argentina (4х4)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Argentina (4х4)",
+                            "O2": "France (4х4)",
+                            "Value1": 1.064,
+                            "Value2": 10,
+                            "Value3": 16.6
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902900,
+                            "O1": "Argentina (4х4)",
+                            "O2": "France (4х4)",
+                            "O1R": "Аргентина (4х4)",
+                            "O2R": "Франция (4х4)",
+                            "LR": "Dragon League 4х4",
+                            "Division": "Dragon League 4х4",
+                            "Value1": 1.064,
+                            "Value2": 10,
+                            "Value3": 16.6
+                        }
+                    },
+                    "Belgium (4х4)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Belgium (4х4)",
+                            "O2": "Portugal (4х4)",
+                            "Value1": 6.9,
+                            "Value2": 7.14,
+                            "Value3": 1.256
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902900,
+                            "O1": "Belgium (4х4)",
+                            "O2": "Portugal (4х4)",
+                            "O1R": "Бельгия (4х4)",
+                            "O2R": "Португалия (4х4)",
+                            "LR": "Dragon League 4х4",
+                            "Division": "Dragon League 4х4",
+                            "Value1": 6.77,
+                            "Value2": 7.12,
+                            "Value3": 1.26
+                        }
+                    },
+                    "Belgium (4х4)/Argentina (4х4)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Belgium (4х4)/Argentina (4х4)",
+                            "O2": "Portugal (4х4)/France (4х4)",
+                            "Value1": 1.7,
+                            "Value2": 2.02,
+                            "Value3": 1.71
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902900,
+                            "O1": "Belgium (4х4)/Argentina (4х4)",
+                            "O2": "Portugal (4х4)/France (4х4)",
+                            "O1R": "Бельгия (4х4)/Аргентина (4х4)",
+                            "O2R": "Португалия (4х4)/Франция (4х4)",
+                            "LR": "Dragon League 4х4",
+                            "Division": "Dragon League 4х4",
+                            "Value1": 1.74,
+                            "Value2": 1.97,
+                            "Value3": 1.74
+                        }
+                    }
+                }
+            },
+            "Dragon League. Women": {
+                "1615902900": {
+                    "France team (Women)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "France team (Women)",
+                            "O2": "Portugal team (Women)",
+                            "Value1": 1.19,
+                            "Value2": 7.32,
+                            "Value3": 9.43
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Al Tayran (w)",
+                            "O2": "El Haram (w)",
+                            "Value1": 1.25,
+                            "Value2": "-",
+                            "Value3": "-"
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902900,
+                            "O1": "France team (Women)",
+                            "O2": "Portugal team (Women)",
+                            "O1R": "Франция тим (жен)",
+                            "O2R": "Португалия тим (жен)",
+                            "LR": "Dragon League. Женщины",
+                            "Division": "Dragon League. Women",
+                            "Value1": 1.155,
+                            "Value2": 7.95,
+                            "Value3": 11
+                        }
+                    }
+                }
+            },
+            "Division 4х4": {
+                "1615903021": {
+                    "Willem (Amateur)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Real Zaragoza (Amateur)",
+                            "O2": "Celta (Amateur)",
+                            "Value1": 2.12,
+                            "Value2": 5.9,
+                            "Value3": 2.275
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903021,
+                            "O1": "Willem (Amateur)",
+                            "O2": "Harlem (Amateur)",
+                            "O1R": "Виллем (люб)",
+                            "O2R": "Харлем (люб)",
+                            "LR": "Division 4x4",
+                            "Division": "Division 4х4",
+                            "Value1": 1.11,
+                            "Value2": 8.5,
+                            "Value3": 10
+                        }
+                    }
+                }
+            },
+            "Serie A8": {
+                "1615902000": {
+                    "Lecce (Amateur)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Real Zaragoza (Amateur)",
+                            "O2": "Celta (Amateur)",
+                            "Value1": 2.12,
+                            "Value2": 5.9,
+                            "Value3": 2.275
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902000,
+                            "O1": "Lecce (Amateur)",
+                            "O2": "Udinese Calcio (Amateur)",
+                            "O1R": "Лечче (люб)",
+                            "O2R": "Удинезе (люб)",
+                            "LR": "Serie A8",
+                            "Division": "Serie A8",
+                            "Value1": 2.225,
+                            "Value2": 5.51,
+                            "Value3": 2.225
+                        }
+                    }
+                }
+            },
+            "KLASK": {
+                "1615903981": {
+                    "Brazil (klask)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Brazil (klask)",
+                            "O2": "Argentina (klask)",
+                            "Value1": 2.512,
+                            "Value2": 10,
+                            "Value3": 1.61
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Germany (KRaftVK)",
+                            "O2": "France (TAKA)",
+                            "Value1": 2.55,
+                            "Value2": 3.65,
+                            "Value3": 2.42
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903981,
+                            "O1": "Brazil (klask)",
+                            "O2": "Argentina (klask)",
+                            "O1R": "Бразилия (класк)",
+                            "O2R": "Аргентина (класк)",
+                            "LR": "KLASK",
+                            "Division": "KLASK",
+                            "Value1": 2.512,
+                            "Value2": 10,
+                            "Value3": 1.61
+                        }
+                    }
+                }
+            },
+            "La Liga Roja 7x7": {
+                "1615903559": {
+                    "Real Zaragoza (Amateur)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Real Zaragoza (Amateur)",
+                            "O2": "Celta (Amateur)",
+                            "Value1": 2.12,
+                            "Value2": 5.9,
+                            "Value3": 2.275
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903559,
+                            "O1": "Real Zaragoza (Amateur)",
+                            "O2": "Celta (Amateur)",
+                            "O1R": "Реал Сарагоса (люб)",
+                            "O2R": "Сельта (люб)",
+                            "LR": "La Liga Roja 7x7",
+                            "Division": "La Liga Roja 7x7",
+                            "Value1": 2.12,
+                            "Value2": 5.9,
+                            "Value3": 2.275
+                        }
+                    }
+                }
+            },
+            "FIFA 21. Cyber League": {
+                "1615903020": {
+                    "Chelsea (Zugl_0870)": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Chelsea (Zugl_0870)",
+                            "O2": "Borussia Dortmund (Patto_4565)",
+                            "Value1": 1.688,
+                            "Value2": 9.87,
+                            "Value3": 2.584
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903020,
+                            "O1": "Chelsea (Zugl_0870)",
+                            "O2": "Borussia Dortmund (Patto_4565)",
+                            "O1R": "Chelsea (Zugl_0870)",
+                            "O2R": "Borussia Dortmund (Patto_4565)",
+                            "LR": "FIFA 21. Cyber League",
+                            "Division": "FIFA 21. Cyber League",
+                            "Value1": 1.688,
+                            "Value2": 9.9,
+                            "Value3": 2.58
+                        }
+                    }
+                }
+            }
+        },
+        "England": {
+            "England. Development League U23": {
+                "1615898700": {
+                    "Ipswich Town U23": {
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Ipswich Town U23",
+                            "O2": "Charlton Athletic U23",
+                            "Value1": 2.95,
+                            "Value2": 2.5,
+                            "Value3": 2.95
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Ipswich Town U23",
+                            "O2": "Charlton Athletic U23",
+                            "Value1": 3.1,
+                            "Value2": 2.41,
+                            "Value3": 3
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Ipswich Town U23",
+                            "O2": "Charlton Athletic U23",
+                            "O1R": "Ипсвич Таун (23)",
+                            "O2R": "Чарльтон Атлетик (23)",
+                            "LR": "Чемпионат Англии до 23 лет. Лига развития",
+                            "Division": "England. Development League U23",
+                            "Value1": 3.1,
+                            "Value2": 2.41,
+                            "Value3": 3
+                        }
+                    }
+                },
+                "1615903200": {
+                    "Queens Park Rangers U23": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Queens Park Rangers U23",
+                            "O2": "Cardiff City U23",
+                            "Value1": 2.52,
+                            "Value2": 3.88,
+                            "Value3": 2.41
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "QPR U23",
+                            "O2": "Cardiff City U23",
+                            "Value1": 2.45,
+                            "Value2": 3.6,
+                            "Value3": 2.65
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Queens Park Rangers U23",
+                            "O2": "Cardiff City U23",
+                            "O1R": "Куинз Парк Рейнджерс (23)",
+                            "O2R": "Кардифф Сити (23)",
+                            "LR": "Чемпионат Англии до 23 лет. Лига развития",
+                            "Division": "England. Development League U23",
+                            "Value1": 2.58,
+                            "Value2": 3.82,
+                            "Value3": 2.38
+                        }
+                    }
+                }
+            }
+        },
+        "Uganda": {
+            "Uganda. Premier League": {
+                "1615898700": {
+                    "Uganda People's Defence Force": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Updf FC",
+                            "O2": "Wakiso Giants FC",
+                            "Value1": 2.6,
+                            "Value2": 2.2,
+                            "Value3": 3.85
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "UPDF FC",
+                            "O2": "Wakiso Giants",
+                            "Value1": 2.55,
+                            "Value2": 2.35,
+                            "Value3": 3.8
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Uganda People's Defence Force",
+                            "O2": "Wakiso Giants",
+                            "Value1": 2.68,
+                            "Value2": 2.3,
+                            "Value3": 3.83
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Uganda People's Defence Force",
+                            "O2": "Wakiso Giants",
+                            "O1R": "Уганда Пиплс Дифенс Форс",
+                            "O2R": "Вакисо Гиантс",
+                            "LR": "Чемпионат Уганды. Премьер-лига",
+                            "Division": "Uganda. Premier League",
+                            "Value1": 2.68,
+                            "Value2": 2.3,
+                            "Value3": 3.83
+                        }
+                    },
+                    "Uganda Police": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Uganda Police FC",
+                            "O2": "Express FC",
+                            "Value1": 3.3,
+                            "Value2": 2.2,
+                            "Value3": 3
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Uganda Police",
+                            "O2": "Express FC",
+                            "Value1": 3.25,
+                            "Value2": 2.25,
+                            "Value3": 3.05
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Uganda Police",
+                            "O2": "Express",
+                            "Value1": 3.33,
+                            "Value2": 2.15,
+                            "Value3": 3.28
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Uganda Police",
+                            "O2": "Express",
+                            "O1R": "Уганда Полис",
+                            "O2R": "Экспресс",
+                            "LR": "Чемпионат Уганды. Премьер-лига",
+                            "Division": "Uganda. Premier League",
+                            "Value1": 3.33,
+                            "Value2": 2.15,
+                            "Value3": 3.28
+                        }
+                    }
+                }
+            }
+        },
+        "Israel": {
+            "Israel. Liga Alef. South": {
+                "1615898700": {
+                    "AS Ashdod": {
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "AS Ashdod",
+                            "O2": "Shimshon Kafr Qasim",
+                            "Value1": 8.5,
+                            "Value2": 3.25,
+                            "Value3": 1.53
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "AS Ashdod",
+                            "O2": "Shimshon Kafr Qasim",
+                            "Value1": 7.07,
+                            "Value2": 3.54,
+                            "Value3": 1.55
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "AS Ashdod",
+                            "O2": "Shimshon Kafr Qasim",
+                            "O1R": "АС Ашдод",
+                            "O2R": "Шимшон Кафр Касим",
+                            "LR": "Чемпионат Израиля. Лига Алеф. Юг",
+                            "Division": "Israel. Liga Alef. South",
+                            "Value1": 7.13,
+                            "Value2": 3.46,
+                            "Value3": 1.56
+                        }
+                    },
+                    "Maccabi Yavne": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Maccabi Y.",
+                            "O2": "Maccabi Herzliya",
+                            "Value1": 4.55,
+                            "Value2": 2.2,
+                            "Value3": 2.5
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Maccabi Petah Tikva U19",
+                            "O2": "Maccabi Haifa U19",
+                            "Value1": 2.7,
+                            "Value2": 3.3,
+                            "Value3": 2.45
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Maccabi Petah Tikva U19",
+                            "O2": "Maccabi Haifa U19",
+                            "Value1": 2.68,
+                            "Value2": 3.47,
+                            "Value3": 2.45
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Maccabi Yavne",
+                            "O2": "Maccabi Herzliya",
+                            "O1R": "Маккаби Явне",
+                            "O2R": "Маккаби Герцлия",
+                            "LR": "Чемпионат Израиля. Лига Алеф. Юг",
+                            "Division": "Israel. Liga Alef. South",
+                            "Value1": 4.97,
+                            "Value2": 2.26,
+                            "Value3": 2.35
+                        }
+                    },
+                    "Ms Ironi Kuseife": {
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Ironi Kuseife",
+                            "O2": "Maccabi Shaarayim",
+                            "Value1": 3.05,
+                            "Value2": 2.1,
+                            "Value3": 3.65
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Ms Ironi Kuseife",
+                            "O2": "Maccabi Sha'arayim",
+                            "Value1": 3.59,
+                            "Value2": 1.81,
+                            "Value3": 4.2
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Ms Ironi Kuseife",
+                            "O2": "Maccabi Sha'arayim",
+                            "O1R": "МС Ирони Кусеифе",
+                            "O2R": "Маккаби Шеараим",
+                            "LR": "Чемпионат Израиля. Лига Алеф. Юг",
+                            "Division": "Israel. Liga Alef. South",
+                            "Value1": 3.59,
+                            "Value2": 1.81,
+                            "Value3": 4.2
+                        }
+                    },
+                    "Hapoel Marmorek": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Hapoel Marmorek FC",
+                            "O2": "Maccabi Ironi Ashdod FC",
+                            "Value1": 1.18,
+                            "Value2": 5.3,
+                            "Value3": 23
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Hapoel Marmorek",
+                            "O2": "Maccabi Ironi Ashdod",
+                            "Value1": 1.15,
+                            "Value2": 5.5,
+                            "Value3": 32
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Hapoel Marmorek",
+                            "O2": "Maccabi Ashdod",
+                            "Value1": 1.18,
+                            "Value2": 6.33,
+                            "Value3": 15
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Hapoel Marmorek",
+                            "O2": "Maccabi Ashdod",
+                            "O1R": "Хапоэль Ирони Марморек",
+                            "O2R": "Маккаби Ашдод",
+                            "LR": "Чемпионат Израиля. Лига Алеф. Юг",
+                            "Division": "Israel. Liga Alef. South",
+                            "Value1": 1.18,
+                            "Value2": 6.33,
+                            "Value3": 15
+                        }
+                    }
+                }
+            },
+            "Israel Championship U19": {
+                "1615903200": {
+                    "Hapoel Ramat Gan Giv'atayim U19": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Hapoel Ramat Gan Giv'atayim U19",
+                            "O2": "Ironi Nesher U19",
+                            "Value1": 1.52,
+                            "Value2": 4.05,
+                            "Value3": 6.08
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Hapoel Ramat Gan Efrayim",
+                            "O2": "Ironi Nesher",
+                            "Value1": 1.52,
+                            "Value2": 4,
+                            "Value3": 5.9
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Hapoel Ramat Gan U19",
+                            "O2": "Ironi Nesher U19",
+                            "Value1": 1.52,
+                            "Value2": 4.1,
+                            "Value3": 5.6
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Hapoel Ramat Gan Giv'atayim U19",
+                            "O2": "Ironi Nesher U19",
+                            "O1R": "Хапоэль Рамат-Ган (19)",
+                            "O2R": "Ирони (19)",
+                            "LR": "Чемпионат Израиля до 19 лет",
+                            "Division": "Israel Championship U19",
+                            "Value1": 1.5,
+                            "Value2": 4.15,
+                            "Value3": 6.22
+                        }
+                    },
+                    "Maccabi Petah Tikva U19": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Maccabi Y.",
+                            "O2": "Maccabi Herzliya",
+                            "Value1": 4.55,
+                            "Value2": 2.2,
+                            "Value3": 2.5
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Alessandria U19",
+                            "O2": "Pro Patria U19",
+                            "Value1": 1.23,
+                            "Value2": 5.5,
+                            "Value3": 11.5
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Maccabi Petah Tikva U19",
+                            "O2": "Maccabi Haifa U19",
+                            "Value1": 2.68,
+                            "Value2": 3.47,
+                            "Value3": 2.45
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Maccabi Petah Tikva U19",
+                            "O2": "Maccabi Haifa U19",
+                            "O1R": "Маккаби Петах-Тиква (19)",
+                            "O2R": "Маккаби Хайфа (19)",
+                            "LR": "Чемпионат Израиля до 19 лет",
+                            "Division": "Israel Championship U19",
+                            "Value1": 2.68,
+                            "Value2": 3.47,
+                            "Value3": 2.45
+                        }
+                    },
+                    "Hapoel Afula U19": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Hapoel Afula U19",
+                            "O2": "Haifa Robbie Shapira U19",
+                            "Value1": 1.63,
+                            "Value2": 4.04,
+                            "Value3": 4.8
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Alessandria U19",
+                            "O2": "Pro Patria U19",
+                            "Value1": 1.23,
+                            "Value2": 5.5,
+                            "Value3": 11.5
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Hapoel Afula U19",
+                            "O2": "Haifa Robbie Shapira U19",
+                            "O1R": "Хапоэль Афула (19)",
+                            "O2R": "СК Хаифа Роббие Шапиро (19)",
+                            "LR": "Чемпионат Израиля до 19 лет",
+                            "Division": "Israel Championship U19",
+                            "Value1": 1.61,
+                            "Value2": 4.1,
+                            "Value3": 4.87
+                        }
+                    }
+                }
+            },
+            "Israel. Liga Alef. North": {
+                "1615896900": {
+                    "Hapoel Migdal HaEmek": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Hapoel Migdal HaEmek",
+                            "O2": "Hapoel Ironi Baqa Al-Gharbiyye",
+                            "Value1": 1.09,
+                            "Value2": 7.72,
+                            "Value3": 42
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Hapoel Migdal Haemeq",
+                            "O2": "Baqa Al-Gharbiyye",
+                            "Value1": 1,
+                            "Value2": 13,
+                            "Value3": 100
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Hapoel Migdal",
+                            "O2": "Hapoel Ironi Baqa Al-Gharbiyye",
+                            "Value1": 1.07,
+                            "Value2": 7.4,
+                            "Value3": 100
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615896900,
+                            "O1": "Hapoel Migdal HaEmek",
+                            "O2": "Hapoel Ironi Baqa Al-Gharbiyye",
+                            "O1R": "Хапоэль Мигдаль-Ха-Эмек",
+                            "O2R": "Хапоэль Ирони Бака Аль Гарбие",
+                            "LR": "Чемпионат Израиля. Лига Алеф. Север",
+                            "Division": "Israel. Liga Alef. North",
+                            "Value1": 1.11,
+                            "Value2": 7.15,
+                            "Value3": 35
+                        }
+                    }
+                },
+                "1615900500": {
+                    "MS Tira": {
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Tira",
+                            "O2": "Hapoel Bnei Fureidis",
+                            "Value1": 1.06,
+                            "Value2": 9.5,
+                            "Value3": 31
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "MS Tira",
+                            "O2": "Hapoel Bnei Furadiss",
+                            "Value1": 1.09,
+                            "Value2": 9.45,
+                            "Value3": 21
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615900500,
+                            "O1": "MS Tira",
+                            "O2": "Hapoel Bnei Furadiss",
+                            "O1R": "Спорт Клуб Тира",
+                            "O2R": "Хапоэль Бней Фурадисс",
+                            "LR": "Чемпионат Израиля. Лига Алеф. Север",
+                            "Division": "Israel. Liga Alef. North",
+                            "Value1": 1.09,
+                            "Value2": 9.45,
+                            "Value3": 21
+                        }
+                    }
+                }
+            }
+        },
+        "Palestine": {
+            "Palestine. West Bank League": {
+                "1615898700": {
+                    "Thaqafi Tulkarem": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Thaqafi Tulkarem",
+                            "O2": "Taraji Wadi Al-Nes",
+                            "Value1": 1.03,
+                            "Value2": 10.5,
+                            "Value3": 45
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Thaqafi Tulkarem",
+                            "O2": "Taraji Wadi Al Nes",
+                            "Value1": 1.03,
+                            "Value2": 12.5,
+                            "Value3": 80
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Thaqafi Tulkarem",
+                            "O2": "Taraji Wadi Al-Nes",
+                            "Value1": 1.05,
+                            "Value2": 12.7,
+                            "Value3": 26
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Thaqafi Tulkarem",
+                            "O2": "Taraji Wadi Al-Nes",
+                            "O1R": "Тагафи",
+                            "O2R": "Тараджи Вади Аль-Нес",
+                            "LR": "Чемпионат Палестины",
+                            "Division": "Palestine. West Bank League",
+                            "Value1": 1.05,
+                            "Value2": 12.7,
+                            "Value3": 26
+                        }
+                    }
+                }
+            }
+        },
+        "Saudi Arabia": {
+            "Saudi Arabia. Division 1": {
+                "1615898700": {
+                    "Al Hazm Rass": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "AL Wakrah",
+                            "O2": "Al-Gharafa SC",
+                            "Value1": 3.1,
+                            "Value2": 3.25,
+                            "Value3": 2.25
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Al Nasr Dubai",
+                            "O2": "Al Ittihad Kalba",
+                            "Value1": 1.45,
+                            "Value2": 4.05,
+                            "Value3": 7.6
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Al Nasr Dubai",
+                            "O2": "Al Ittihad Kalba",
+                            "Value1": 1.45,
+                            "Value2": 4.02,
+                            "Value3": 7.54
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615898700,
+                            "O1": "Al Hazm Rass",
+                            "O2": "Al Thuqbah",
+                            "O1R": "Аль Хазм",
+                            "O2R": "Аль-Тугба",
+                            "LR": "Чемпионат Саудовской Аравии. Дивизион 1",
+                            "Division": "Saudi Arabia. Division 1",
+                            "Value1": 1.14,
+                            "Value2": 7.53,
+                            "Value3": 17.4
+                        }
+                    }
+                },
+                "1615900500": {
+                    "Ohud Medina": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Ohud Medina",
+                            "O2": "Al Draih",
+                            "Value1": 2.34,
+                            "Value2": 2.24,
+                            "Value3": 5.09
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Ohud Medina",
+                            "O2": "AL Draih",
+                            "Value1": 2.25,
+                            "Value2": 2.25,
+                            "Value3": 5
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Ohud Medina",
+                            "O2": "Al-Diriyah",
+                            "Value1": 2.4,
+                            "Value2": 2.35,
+                            "Value3": 4.15
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615900500,
+                            "O1": "Ohud Medina",
+                            "O2": "Al Draih",
+                            "O1R": "Охуд Медина",
+                            "O2R": "Аль Драих",
+                            "LR": "Чемпионат Саудовской Аравии. Дивизион 1",
+                            "Division": "Saudi Arabia. Division 1",
+                            "Value1": 2.34,
+                            "Value2": 2.24,
+                            "Value3": 5.09
+                        }
+                    }
+                }
+            }
+        },
+        "Italy": {
+            "Italy. Lega Pro B": {
+                "1615903200": {
+                    "Fermana": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Fermana",
+                            "O2": "Triestina Calcio",
+                            "Value1": 1.74,
+                            "Value2": 3.74,
+                            "Value3": 4.37
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Fermana FC",
+                            "O2": "US Triestina Calcio 1918",
+                            "Value1": 1.75,
+                            "Value2": 3.25,
+                            "Value3": 4.75
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Fermana",
+                            "O2": "Triestina",
+                            "Value1": 1.8,
+                            "Value2": 3.2,
+                            "Value3": 4.9
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Fermana",
+                            "O2": "Triestina Calcio",
+                            "O1R": "Фермана",
+                            "O2R": "Триестина",
+                            "LR": "Чемпионат Италии. Лига Про B",
+                            "Division": "Italy. Lega Pro B",
+                            "Value1": 1.76,
+                            "Value2": 3.67,
+                            "Value3": 4.39
+                        }
+                    }
+                }
+            },
+            "Italy. Campionato Nazionale Primavera 3": {
+                "1615900500": {
+                    "Alessandria Calcio 1912 U19": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "US Alessandria Calcio 1912",
+                            "O2": "Aurora Pro Patria 1919 U19",
+                            "Value1": 1.3,
+                            "Value2": 4.5,
+                            "Value3": 9.75
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Alessandria U19",
+                            "O2": "Pro Patria U19",
+                            "Value1": 1.23,
+                            "Value2": 5.5,
+                            "Value3": 11.5
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Alessandria Calcio 1912 U19",
+                            "O2": "Aurora Pro Patria 1919 U19",
+                            "Value1": 1.27,
+                            "Value2": 5.35,
+                            "Value3": 10.2
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615900500,
+                            "O1": "Alessandria Calcio 1912 U19",
+                            "O2": "Aurora Pro Patria 1919 U19",
+                            "O1R": "Алессандрия Кальчио (19)",
+                            "O2R": "Про Патриа (19)",
+                            "LR": "Чемпионат Италии. Примавера 3",
+                            "Division": "Italy. Campionato Nazionale Primavera 3",
+                            "Value1": 1.27,
+                            "Value2": 5.35,
+                            "Value3": 10.2
+                        }
+                    }
+                }
+            }
+        },
+        "Algeria": {
+            "Algeria. Ligue 1": {
+                "1615903200": {
+                    "Racing Club Relizane": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Racing Club Relizane",
+                            "O2": "Olympique de Medea",
+                            "Value1": 2.43,
+                            "Value2": 2.91,
+                            "Value3": 3.29
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Relizane",
+                            "O2": "Olympique de Medea",
+                            "Value1": 2.5,
+                            "Value2": 2.8,
+                            "Value3": 3.2
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Racing Club Relizane",
+                            "O2": "Olympique de Medea",
+                            "O1R": "РК Релизан",
+                            "O2R": "Олимпик Медея",
+                            "LR": "Чемпионат Алжира",
+                            "Division": "Algeria. Ligue 1",
+                            "Value1": 2.43,
+                            "Value2": 2.91,
+                            "Value3": 3.29
+                        }
+                    }
+                }
+            },
+            "Algeria. Ligue 2": {
+                "1615901400": {
+                    "MC El Eulma": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "MC El Eulma",
+                            "O2": "Chaouia",
+                            "Value1": 8.15,
+                            "Value2": 4.41,
+                            "Value3": 1.39
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "MC EL Eulma",
+                            "O2": "US Chaouia",
+                            "Value1": 8.75,
+                            "Value2": 3.85,
+                            "Value3": 1.4
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "MC El Eulma",
+                            "O2": "US Chaouia",
+                            "Value1": 8.5,
+                            "Value2": 4.6,
+                            "Value3": 1.35
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "MC El Eulma",
+                            "O2": "Chaouia",
+                            "O1R": "Эль Эульма",
+                            "O2R": "УС Чаоуия",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 8.15,
+                            "Value2": 4.41,
+                            "Value3": 1.39
+                        }
+                    },
+                    "Kouba": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Kouba",
+                            "O2": "RC Arba",
+                            "Value1": 2.63,
+                            "Value2": 2.41,
+                            "Value3": 3.65
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "RC Kouba",
+                            "O2": "RC Arbaa",
+                            "Value1": 2.65,
+                            "Value2": 2.35,
+                            "Value3": 3.5
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "RC Kouba",
+                            "O2": "RC Arba",
+                            "Value1": 2.55,
+                            "Value2": 2.45,
+                            "Value3": 3.55
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "Kouba",
+                            "O2": "RC Arba",
+                            "O1R": "Коуба",
+                            "O2R": "РК Арба",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 2.57,
+                            "Value2": 2.44,
+                            "Value3": 3.7
+                        }
+                    },
+                    "ASM Oran": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "ASM Oran",
+                            "O2": "CRB Ain Oussera",
+                            "Value1": 1.68,
+                            "Value2": 3.02,
+                            "Value3": 7.04
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "ASM Oran",
+                            "O2": "Crb Ain Ouessara",
+                            "Value1": 1.65,
+                            "Value2": 2.9,
+                            "Value3": 6.75
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "ASM Oran",
+                            "O2": "CRB Ain Oussera",
+                            "Value1": 1.65,
+                            "Value2": 2.8,
+                            "Value3": 7.8
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "ASM Oran",
+                            "O2": "CRB Ain Oussera",
+                            "O1R": "АСМ Оран",
+                            "O2R": "КРБ Айн Оуссера",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 1.65,
+                            "Value2": 3.07,
+                            "Value3": 7.17
+                        }
+                    },
+                    "DRB Tadjenanet": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "DRB Tadjenanet",
+                            "O2": "Chelghoum Laid",
+                            "Value1": 4.13,
+                            "Value2": 3.35,
+                            "Value3": 1.89
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "DRB Tadjenant",
+                            "O2": "HB Chelghoum Laid",
+                            "Value1": 4.4,
+                            "Value2": 3.2,
+                            "Value3": 1.8
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "DRB Tadjenant",
+                            "O2": "HB Chelghoum Laid",
+                            "Value1": 4.5,
+                            "Value2": 3.3,
+                            "Value3": 1.8
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "DRB Tadjenanet",
+                            "O2": "Chelghoum Laid",
+                            "O1R": "ДРБ Тадженант",
+                            "O2R": "Шелгум Лаид",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 4.13,
+                            "Value2": 3.35,
+                            "Value3": 1.89
+                        }
+                    },
+                    "JSM Bejaia": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "JSM Bejaia",
+                            "O2": "Amal Bou Saada",
+                            "Value1": 2.01,
+                            "Value2": 2.71,
+                            "Value3": 4.9
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "JSM Bejaia",
+                            "O2": "Amal Bou Saada",
+                            "Value1": 1.88,
+                            "Value2": 2.7,
+                            "Value3": 5.5
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "JSM Bejaia",
+                            "O2": "Amal Bou Saada",
+                            "O1R": "ЖСМ Беджая",
+                            "O2R": "Амал Боу Саада",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 1.96,
+                            "Value2": 2.77,
+                            "Value3": 5.03
+                        }
+                    },
+                    "CA Batna": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "CA Batna",
+                            "O2": "USM Annaba",
+                            "Value1": 2.59,
+                            "Value2": 2.17,
+                            "Value3": 4.48
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "CA Batna",
+                            "O2": "USM Annaba",
+                            "Value1": 2.65,
+                            "Value2": 2.1,
+                            "Value3": 4.25
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "CA Batna",
+                            "O2": "USM Annaba",
+                            "Value1": 2.6,
+                            "Value2": 2.2,
+                            "Value3": 4.05
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "CA Batna",
+                            "O2": "USM Annaba",
+                            "O1R": "КА Батна",
+                            "O2R": "УСМ Аннаба",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 2.54,
+                            "Value2": 2.23,
+                            "Value3": 4.4
+                        }
+                    },
+                    "MO Constantine": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "MO Constantine",
+                            "O2": "MSP Batna",
+                            "Value1": 2.26,
+                            "Value2": 2.37,
+                            "Value3": 4.88
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "MO Constantine",
+                            "O2": "MSP Batna",
+                            "Value1": 2.25,
+                            "Value2": 2.3,
+                            "Value3": 4.85
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "MO Constantine",
+                            "O2": "MSP Batna",
+                            "Value1": 2.25,
+                            "Value2": 2.35,
+                            "Value3": 4.8
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "MO Constantine",
+                            "O2": "MSP Batna",
+                            "O1R": "МО Константина",
+                            "O2R": "МСП Батна",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 2.26,
+                            "Value2": 2.37,
+                            "Value3": 4.88
+                        }
+                    },
+                    "OM Arzew": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "OM Arzew",
+                            "O2": "SC Ain Defla",
+                            "Value1": 2.71,
+                            "Value2": 2.48,
+                            "Value3": 3.36
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "OM Arzew",
+                            "O2": "SC Ain Defla",
+                            "Value1": 2.55,
+                            "Value2": 2.35,
+                            "Value3": 3.7
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "OM Arzew",
+                            "O2": "SC Ain Defla",
+                            "Value1": 2.65,
+                            "Value2": 2.4,
+                            "Value3": 3.55
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "OM Arzew",
+                            "O2": "SC Ain Defla",
+                            "O1R": "ОМ Арзев",
+                            "O2R": "СК Айн-Дефла",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 2.71,
+                            "Value2": 2.48,
+                            "Value3": 3.36
+                        }
+                    },
+                    "SKAF Khemis Miliana": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "SKAF Khemis Miliana",
+                            "O2": "IRB El Kerma",
+                            "Value1": 1.4,
+                            "Value2": 4.22,
+                            "Value3": 8.44
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Skaf Khemis Miliana",
+                            "O2": "IRB El Kerma",
+                            "Value1": 1.37,
+                            "Value2": 3.9,
+                            "Value3": 9.75
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "SKAF Khemis Miliana",
+                            "O2": "IRB El Kerma",
+                            "Value1": 1.4,
+                            "Value2": 3.8,
+                            "Value3": 9.5
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "SKAF Khemis Miliana",
+                            "O2": "IRB El Kerma",
+                            "O1R": "СКАФ Хемис-Милиана",
+                            "O2R": "ИРБ Эль-Керма",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": "-",
+                            "Value2": "-",
+                            "Value3": "-"
+                        }
+                    },
+                    "Teleghma": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Teleghma",
+                            "O2": "AS Khroub",
+                            "Value1": 2.77,
+                            "Value2": 2.4,
+                            "Value3": 3.43
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "MC EL Eulma",
+                            "O2": "US Chaouia",
+                            "Value1": 8.75,
+                            "Value2": 3.85,
+                            "Value3": 1.4
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "NRB Teleghma",
+                            "O2": "AS Khroub",
+                            "Value1": 2.75,
+                            "Value2": 2.35,
+                            "Value3": 3.4
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "Teleghma",
+                            "O2": "AS Khroub",
+                            "O1R": "Телегма",
+                            "O2R": "АС Хроуб",
+                            "LR": "Чемпионат Алжира. Дивизион 2",
+                            "Division": "Algeria. Ligue 2",
+                            "Value1": 2.77,
+                            "Value2": 2.4,
+                            "Value3": 3.43
+                        }
+                    }
+                }
+            }
+        },
+        "Croatia": {
+            "Croatian Cup": {
+                "1615903200": {
+                    "NK Oriolik Oriovac": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "NK Oriolik Oriovac",
+                            "O2": "NK Istra 1961",
+                            "Value1": 10,
+                            "Value2": 4.52,
+                            "Value3": 1.34
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "NK Oriolik",
+                            "O2": "NK Istra 1961",
+                            "Value1": 13.5,
+                            "Value2": 4.7,
+                            "Value3": 1.27
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "NK Oriolik",
+                            "O2": "Istra 1961",
+                            "Value1": 14,
+                            "Value2": 5,
+                            "Value3": 1.25
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "NK Oriolik Oriovac",
+                            "O2": "NK Istra 1961",
+                            "O1R": "Ориолик",
+                            "O2R": "Истра-1961",
+                            "LR": "Кубок Хорватии",
+                            "Division": "Croatian Cup",
+                            "Value1": 10.3,
+                            "Value2": 4.66,
+                            "Value3": 1.32
+                        }
+                    }
+                }
+            }
+        },
+        "Qatar": {
+            "Qatar Championship": {
+                "1615903200": {
+                    "Al-Wakrah": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Al-Wakrah",
+                            "O2": "Al-Gharafa",
+                            "Value1": 3.16,
+                            "Value2": 3.16,
+                            "Value3": 2.35
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "AL Wakrah",
+                            "O2": "Al-Gharafa SC",
+                            "Value1": 3.1,
+                            "Value2": 3.25,
+                            "Value3": 2.25
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Al-Wakrah",
+                            "O2": "Al-Gharafa",
+                            "Value1": 3.2,
+                            "Value2": 3.3,
+                            "Value3": 2.2
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615903200,
+                            "O1": "Al-Wakrah",
+                            "O2": "Al-Gharafa",
+                            "O1R": "Аль-Вакра",
+                            "O2R": "Аль Гарафа",
+                            "LR": "Чемпионат Катара",
+                            "Division": "Qatar Championship",
+                            "Value1": 3.24,
+                            "Value2": 3.13,
+                            "Value3": 2.33
+                        }
+                    }
+                }
+            }
+        },
+        "United Arab Emirates": {
+            "UAE. Pro League": {
+                "1615901400": {
+                    "Al Nasr Dubai": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Al Nasr Dubai",
+                            "O2": "Al Ittihad Kalba",
+                            "Value1": 1.45,
+                            "Value2": 4.02,
+                            "Value3": 7.54
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Al-Nasr Dubai SC",
+                            "O2": "AL Ittihad Kalba",
+                            "Value1": 1.52,
+                            "Value2": 3.6,
+                            "Value3": 6.5
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Al Nasr Dubai",
+                            "O2": "Al Ittihad Kalba",
+                            "Value1": 1.45,
+                            "Value2": 4.05,
+                            "Value3": 7.6
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "Al Nasr Dubai",
+                            "O2": "Al Ittihad Kalba",
+                            "O1R": "Аль-Наср Дубай",
+                            "O2R": "Аль-Иттихад Калба",
+                            "LR": "Чемпионат ОАЭ",
+                            "Division": "UAE. Pro League",
+                            "Value1": 1.45,
+                            "Value2": 4.02,
+                            "Value3": 7.54
+                        }
+                    }
+                },
+                "1615902300": {
+                    "Al Dhafra": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Al Dhafra",
+                            "O2": "Al-Wahda Abu Dhabi",
+                            "Value1": 5.49,
+                            "Value2": 4,
+                            "Value3": 1.57
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Al Dhafra",
+                            "O2": "Al Wahda Abu Dhabi",
+                            "Value1": 5.4,
+                            "Value2": 4.15,
+                            "Value3": 1.55
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "AL Dhafra SSC",
+                            "O2": "AL Wahda FC (UAE)",
+                            "Value1": 4.95,
+                            "Value2": 4.2,
+                            "Value3": 1.55
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615902300,
+                            "O1": "Al Dhafra",
+                            "O2": "Al-Wahda Abu Dhabi",
+                            "O1R": "Аль-Дафра",
+                            "O2R": "Аль Вахда Абу-Даби",
+                            "LR": "Чемпионат ОАЭ",
+                            "Division": "UAE. Pro League",
+                            "Value1": 5.49,
+                            "Value2": 4,
+                            "Value3": 1.57
+                        }
+                    }
+                }
+            }
+        },
+        "India": {
+            "India. I-League": {
+                "1615901400": {
+                    "Sudeva Delhi": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Sudeva Delhi",
+                            "O2": "NEROCA",
+                            "Value1": 2.58,
+                            "Value2": 2.73,
+                            "Value3": 3.17
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Sudeva FC",
+                            "O2": "Neroca",
+                            "Value1": 2.55,
+                            "Value2": 2.7,
+                            "Value3": 3.3
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "Sudeva Delhi",
+                            "O2": "NEROCA",
+                            "O1R": "Судева Дели",
+                            "O2R": "НЕРОКА",
+                            "LR": "Чемпионат Индии. I-Лига",
+                            "Division": "India. I-League",
+                            "Value1": 2.58,
+                            "Value2": 2.73,
+                            "Value3": 3.17
+                        }
+                    }
+                }
+            }
+        },
+        "South Africa": {
+            "South Africa. 1st Division": {
+                "1615901400": {
+                    "Real Kings": {
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Real Kings",
+                            "O2": "Jomo Cosmos",
+                            "Value1": 2.57,
+                            "Value2": 2.37,
+                            "Value3": 3.86
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Royal AM FC",
+                            "O2": "Jomo Cosmos FC",
+                            "Value1": 2.55,
+                            "Value2": 2.25,
+                            "Value3": 3.95
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Real Kings",
+                            "O2": "Jomo Cosmos",
+                            "Value1": 2.6,
+                            "Value2": 2.2,
+                            "Value3": 4.15
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615901400,
+                            "O1": "Real Kings",
+                            "O2": "Jomo Cosmos",
+                            "O1R": "Реал Кингз",
+                            "O2R": "Джомо Космос",
+                            "LR": "Чемпионат ЮАР. Дивизион 1",
+                            "Division": "South Africa. 1st Division",
+                            "Value1": 2.57,
+                            "Value2": 2.37,
+                            "Value3": 3.86
+                        }
+                    }
+                }
+            }
+        },
+        "Cyprus": {
+            "Cyprus. Second Division": {
+                "1615900500": {
+                    "Alki Oroklinis": {
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "Alki Oroklini",
+                            "O2": "Anagennisi Deryneia",
+                            "Value1": 2.75,
+                            "Value2": 2.5,
+                            "Value3": 3.05
+                        },
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Alki Oroklinis",
+                            "O2": "Anagennisi Derynias",
+                            "Value1": 2.7,
+                            "Value2": 2.65,
+                            "Value3": 3
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Alki Oroklinis",
+                            "O2": "Anagennisi Dherynia",
+                            "Value1": 2.81,
+                            "Value2": 2.68,
+                            "Value3": 2.94
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615900500,
+                            "O1": "Alki Oroklinis",
+                            "O2": "Anagennisi Dherynia",
+                            "O1R": "Альки Ороклинис",
+                            "O2R": "Анагенниси Деринья",
+                            "LR": "Чемпионат Кипра. 2-й дивизион",
+                            "Division": "Cyprus. Second Division",
+                            "Value1": 2.81,
+                            "Value2": 2.68,
+                            "Value3": 2.94
+                        }
+                    }
+                }
+            }
+        },
+        "Uzbekistan": {
+            "Uzbekistan. Professional League": {
+                "1615900500": {
+                    "Metallurg Bekabad": {
+                        "fonbet": {
+                            "BK": "fonbet",
+                            "O1": "Metallurg Bekabad",
+                            "O2": "Bunyodkor Tashkent",
+                            "Value1": 1.4,
+                            "Value2": 3.95,
+                            "Value3": 9.5
+                        },
+                        "1win": {
+                            "BK": "1win",
+                            "O1": "PFK Metallurg Bekabad",
+                            "O2": "FC Bunyodkor",
+                            "Value1": 1.45,
+                            "Value2": 3.65,
+                            "Value3": 7.75
+                        },
+                        "melbet": {
+                            "BK": "melbet",
+                            "O1": "Metallurg Bekabad",
+                            "O2": "Bunyodkor",
+                            "Value1": 1.44,
+                            "Value2": 4.11,
+                            "Value3": 7.7
+                        },
+                        "xstavka": {
+                            "BK": "xstavka",
+                            "Time": 1615900500,
+                            "O1": "Metallurg Bekabad",
+                            "O2": "Bunyodkor",
+                            "O1R": "Металлург Бекабад",
+                            "O2R": "Бунедкор",
+                            "LR": "Чемпионат Узбекистана. ПФЛ",
+                            "Division": "Uzbekistan. Professional League",
+                            "Value1": 1.44,
+                            "Value2": 4.11,
+                            "Value3": 7.7
+                        }
+                    }
+                }
+            }
+        }
+    }
+};

@@ -1,0 +1,95 @@
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: black;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 8px;
+}
+td {
+    background: rgb(27, 27, 27);
+    color: white;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+
+.main_container__championships__championship__country{
+    width: 50%;
+}
+.main_container__championships__championship__country__text{
+    font-size: 20px;
+    font-family:'Roboto';
+    margin-left: 10px;
+    position: relative;
+    top:2.5px;
+}
+.main_container__championships__championship__prediction{
+    width: 7%;
+}
+
+.main_container__championships__championship__firstcoeff{
+    text-align: center;
+    width: 5%;
+}
+
+.main_container__championships__championship__xcoeff{
+    text-align: center;
+    width: 5%;
+}
+
+.main_container__championships__championship__secondcoeff{
+    text-align: center;
+    width: 5%;
+}
+.main_container__championships__championship__date{
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.mini_block{
+    position: relative;
+    margin-left: 40%; 
+    height: 20px;
+    width: 600px;
+    top: -15px;
+}
+span .main_container__championships__championship__first{
+    float: right;
+    height: 30px;
+}
+span .main_container__championships__championship__line{
+    position: relative;
+    left: 100px;
+    width: 3px;
+    height: 20px;
+    
+}
+span .main_container__championships__championship__second{
+    margin-left: 3%;
+    height: 20px;
+}
+
+.main_container__championships__championship__predictioncoeff{
+    padding-left: 2.5%;
+}
+
+.main_container__championships__championship__first{
+    text-align: center;
+}
+
+.main_container__championships__championship__x{
+    text-align: center;
+}
+
+.main_container__championships__championship__second{
+    text-align: center;
+}
+
+.table-title{
+    background-color: black;
+}
+
+.championship-content{
+    border: 2px solid white;
+}

@@ -1,0 +1,60 @@
+.card-block{
+    width: 19%;
+    margin: 7px;
+}
+
+.card{
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card-bonus{
+    position: absolute;
+    top: 20px;
+    right: 70px;
+
+}
+.card-deck{
+    margin: 5px;
+}
+
+.card-prize{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    font-size: 90%;
+}
+
+.card-buttons{
+    position: absolute;
+    bottom: 0;
+}
+
+.card-body{
+    position: relative;
+}
+
+.card-footer{
+    position: relative;
+    bottom:20%;
+    left: 10%;
+    border: 0;
+    padding: 0;
+}
+
+.card-place{
+    background-color: rgb(250, 190, 30);
+    position: relative;
+    bottom:60%;
+    left:90%;
+    width: 30px;
+    height: 30px;
+}
+
+.card-place__text{
+    position: relative;
+    top: 0.5px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}

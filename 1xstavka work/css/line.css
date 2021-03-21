@@ -1,0 +1,14 @@
+hr {
+    height: 2px; 
+    width: 40px;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.navbar-toggler{
+    background-color: black;
+    position: relative;
+    bottom: 5px;
+}

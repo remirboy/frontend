@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Главная</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/table.css">
+        <link rel="stylesheet" href="./css/tcal.css">
+        <link rel="stylesheet" href="./css/hidden.css">
+        <link rel="stylesheet" href="./css/line.css">
+        <link rel="stylesheet" href="./css/card.css">
+        <link rel="stylesheet" href="./css/star.css">
+        <link rel="stylesheet" href="./css/preheader.css">
+        <script src="./js/tcal.js"></script>
+        <script src="./js/hidden.js"></script>
+        <script type="text/javascript" src="./json/data.json"></script>
+        <script type="text/javascript" src="./js/parser.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="pos-f-t" >
+                <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4">
+                    <h4 class="text-white">Collapsed content</h4>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                  </div>
+                 
+                </div>
+                <nav class="navbar navbar-light" style="background-color: black">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <hr/><hr/><hr/>
+                  </button>
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0" >
+                    <li class="nav-item active" >
+                      <a class="nav-link" href="#"><h4 style="margin-left: 20px; color: white; float: left;">FindStats.ru</h4></a>
+                    </li>
+                </ul>
+                  
+                </nav>
+              </div>
+              
+        </header>
+        <div class="pre_header">
+            <div class="pre_header__logo">
+                <div class="pre_header__logo__text">
+                    <span style="font-size: 150%;">&#9917;</span><span class="pre_header__logo__text__football">Футбол</span> 
+                </div>
+            </div>
+        </div>
+        <div class="main_container">
+        
+            <h3 style="padding-top: 10px;" class="main_container__text">Матч-центр</h3>
+            <h4 class="main_container__text" style="padding-top: 20px;">Топ букмекеров</h4>
+            <div class="card-deck" style="padding-top: 20px;">
+                <div class="card-block" class="row">
+                    <div class="card" style="background-color: rgb(251,100,10);">
+                        <div class="card-body">
+                            <img  height="30" width="90" src="logo.jpg">
+                            <h5 class="card-bonus">15000</h5>
+                            <span class="card-prize">Получить бонус</span>
+                            <div class="card-place"><span class="card-place__text">1</span></div>
+                            <div class="card-stars">
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-dark" style="width: 100px; background-color: black;">Обзор</button>
+                            <button type="button" class="btn btn-light" style="width: 100px; background-color: white">Сайт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-block" class="row">   
+                    <div class="card" style="background-color: rgb(251,100,10);">
+                        <div class="card-body">
+                            <img height="30" width="90" src="logo.jpg">
+                            <h5 class="card-bonus">15000</h5>
+                            <span class="card-prize">Получить бонус</span>
+                            <div class="card-place"><span class="card-place__text">2</span></div>
+                            <div class="card-stars">
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-dark" style="width: 100px; background-color: black;">Обзор</button>
+                            <button type="button" class="btn btn-light" style="width: 100px; background-color: white;">Сайт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-block" class="row">   
+                    <div class="card" style="background-color: rgb(251,100,10);">
+                        <div class="card-body">
+                            <img height="30" width="90" src="logo.jpg">
+                            <h5 class="card-bonus">15000</h5>
+                            <span class="card-prize">Получить бонус</span>
+                            <div class="card-place"><span class="card-place__text">3</span></div>
+                            <div class="card-stars">
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-dark" style="width: 100px; background-color: black;">Обзор</button>
+                            <button type="button" class="btn btn-light" style="width: 100px; background-color: white;">Сайт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-block" class="row">   
+                    <div class="card" style="background-color: rgb(251,100,10);">
+                        <div class="card-body">
+                            <img height="30" width="90" src="logo.jpg">
+                            <h5 class="card-bonus">15000</h5>
+                            <span class="card-prize">Получить бонус</span>
+                            <div class="card-place"><span class="card-place__text">4</span></div>
+                            <div class="card-stars">
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-dark" style="width: 100px; background-color: black;">Обзор</button>
+                            <button type="button" class="btn btn-light" style="width: 100px; background-color: white;">Сайт</button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="card-block" class="row">   
+                    <div class="card" style="background-color: rgb(251,100,10);">
+                        <div class="card-body">
+                            <img height="30" width="90" src="logo.jpg">
+                            <h5 class="card-bonus">15000</h5>
+                            <span class="card-prize">Получить бонус</span>
+                            <div class="card-place"><span class="card-place__text">5</span></div>
+                            <div class="card-stars">
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                                <div class="card-stars__star"></div>
+                            </div>
+                      
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-dark" style="width: 100px; background-color: black;">Обзор</button>
+                            <button type="button" class="btn btn-light" style="width: 100px; background-color: white;">Сайт</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="main_container__text" style="padding-top: 50px;">&#9917; <span style="margin-left: 10px; font-size: 120%;">ФУТБОЛ</span></h3>
+            <div class="match-button-group">
+                <div id="main_container__matchs" style="padding-top: 20px;padding-left: 20px;">
+                    <button type="button" class="button-match" style="background-color: rgb(251,100,10);" >Все(86)</button>
+                    <button type="button" class="button-match" >Live(3)</button>
+                    <button type="button" class="button-match" >Запланированные(81)</button>
+                </div>
+                <div id="main_container__dates" style="padding-top: 20px;padding-left: 20px;">
+                    <button type="button" class="button-date" >Вчера</button>
+                    <button type="button" class="button-date" style="background-color: rgb(251,100,10);">Сегодня</button>
+                    <button type="button" class="button-date">Завтра</button>
+                    <button type="date" class="button-calendar">
+                        <span class="calendar_text">Сегодня</span>
+                        <input class="tcal"  type="text"  name="calendar">
+                    </button>
+                </div>             
+            </div>
+            <div class="main_container__championships">
+                <table class="main_container__championships__championship">
+                    <tr class="table-title">
+                        <th class="main_container__championships__championship__country">
+                            <img src="./img/UEFA.png" width="50px" height="50px">
+                            <span class="main_container__championships__championship__country__text">Европа. Лига чемпионов УЕФА</span>
+                        </th>
+                        <th class="main_container__championships__championship__prediction">Прогнозы</th>
+                        <th class="main_container__championships__championship__firstcoeff">1</th>
+                        <th class="main_container__championships__championship__xcoeff">X</th>
+                        <th class="main_container__championships__championship__secondcoeff">2</th>
+                    </tr>
+ 
+                    <tr class="championship-content">
+                        <td>
+                            <span class="main_container__championships__championship__date">22:00 16.03</span>
+                            <div class="mini_block" onmouseover="showHiddenTable()" onmouseout="hideHiddenTable()">
+                                <span class="main_container__championships__championship__first">Реал-Мадрид</span>
+                                <span class="main_container__championships__championship__line">-</span>
+                                <span class="main_container__championships__championship__second">Аталанта</span>
+                            </div>
+                        </td>
+                        <td class="main_container__championships__championship__predictioncoeff">7</td>
+                        <td class="main_container__championships__championship__first">2.13</td>
+                        <td class="main_container__championships__championship__x">3.90</td>
+                        <td class="main_container__championships__championship__second">3.41</td>
+                    </tr>
+                    
+                    <tr class="championship-content">
+                        <td>
+                            <span class="main_container__championships__championship__date">22:00 16.03</span>
+                            <div class="mini_block" onmouseover="showHiddenTable()" onmouseout="hideHiddenTable()">
+                                <span class="main_container__championships__championship__first">Манчестер Сити</span>
+                                <span class="main_container__championships__championship__line">-</span>
+                                <span class="main_container__championships__championship__second">Боруссия Менхенгладбах</span>
+                            </div>
+                        </td>
+                        <td class="main_container__championships__championship__predictioncoeff">7</td>
+                        <td class="main_container__championships__championship__first">2.13</td>
+                        <td class="main_container__championships__championship__x">3.90</td>
+                        <td class="main_container__championships__championship__second">3.41</td>
+                    </tr>
+                
+                </table>
+
+                <table class="main_container__championships__championship">
+                    <tr class="table-title">
+                        <th class="main_container__championships__championship__country">
+                            <img src="./img/UEFA.png" width="50px" height="50px">
+                            <span class="main_container__championships__championship__country__text">Европа. Лига чемпионов УЕФА</span>
+                        </th>
+                        <th class="main_container__championships__championship__prediction">Прогнозы</th>
+                        <th class="main_container__championships__championship__firstcoeff">1</th>
+                        <th class="main_container__championships__championship__xcoeff">X</th>
+                        <th class="main_container__championships__championship__secondcoeff">2</th>
+                    </tr>
+ 
+                    <tr class="championship-content">
+                        <td>
+                            <span class="main_container__championships__championship__date">22:00 16.03</span>
+                            <div class="mini_block" onmouseover="showHiddenTable()" onmouseout="hideHiddenTable()">
+                                <span class="main_container__championships__championship__first">Реал-Мадрид</span>
+                                <span class="main_container__championships__championship__line">-</span>
+                                <span class="main_container__championships__championship__second">Аталанта</span>
+                            </div>
+                        </td>
+                        <td class="main_container__championships__championship__predictioncoeff">7</td>
+                        <td class="main_container__championships__championship__first">2.13</td>
+                        <td class="main_container__championships__championship__x">3.90</td>
+                        <td class="main_container__championships__championship__second">3.41</td>
+                    </tr>
+                    
+                    <tr class="championship-content">
+                        <td>
+                            <span class="main_container__championships__championship__date">22:00 16.03</span>
+                            <div class="mini_block" onmouseover="showHiddenTable()" onmouseout="hideHiddenTable()">
+                                <span class="main_container__championships__championship__first">Манчестер Сити</span>
+                                <span class="main_container__championships__championship__line">-</span>
+                                <span class="main_container__championships__championship__second">Боруссия Менхенгладбах</span>
+                            </div>
+                        </td>
+                        <td class="main_container__championships__championship__predictioncoeff">7</td>
+                        <td class="main_container__championships__championship__first">2.13</td>
+                        <td class="main_container__championships__championship__x">3.90</td>
+                        <td class="main_container__championships__championship__second">3.41</td>
+                    </tr>
+                
+                </table>
+
+                <table class="main_container__championships__championship">
+                    <tr class="table-title">
+                        <th class="main_container__championships__championship__country">
+                            <img src="./img/UEFA.png" width="50px" height="50px">
+                            <span class="main_container__championships__championship__country__text">Европа. Лига чемпионов УЕФА</span>
+                        </th>
+                        <th class="main_container__championships__championship__prediction">Прогнозы</th>
+                        <th class="main_container__championships__championship__firstcoeff">1</th>
+                        <th class="main_container__championships__championship__xcoeff">X</th>
+                        <th class="main_container__championships__championship__secondcoeff">2</th>
+                    </tr>
+ 
+                    <tr class="championship-content">
+                        <td>
+                            <span class="main_container__championships__championship__date">22:00 16.03</span>
+                            <div class="mini_block" onmouseover="showHiddenTable()" onmouseout="hideHiddenTable()">
+                                <span class="main_container__championships__championship__first">Реал-Мадрид</span>
+                                <span class="main_container__championships__championship__line">-</span>
+                                <span class="main_container__championships__championship__second">Аталанта</span>
+                            </div>
+                        </td>
+                        <td class="main_container__championships__championship__predictioncoeff">7</td>
+                        <td class="main_container__championships__championship__first">2.13</td>
+                        <td class="main_container__championships__championship__x">3.90</td>
+                        <td class="main_container__championships__championship__second">3.41</td>
+                    </tr>
+                    
+                    <tr class="championship-content">
+                        <td>
+                            <span class="main_container__championships__championship__date">22:00 16.03</span>
+                            <div class="mini_block" onmouseover="showHiddenTable()" onmouseout="hideHiddenTable()">
+                                <span class="main_container__championships__championship__first">Манчестер Сити</span>
+                                <span class="main_container__championships__championship__line">-</span>
+                                <span class="main_container__championships__championship__second">Боруссия Менхенгладбах</span>
+                            </div>
+                        </td>
+                        <td class="main_container__championships__championship__predictioncoeff">7</td>
+                        <td class="main_container__championships__championship__first">2.13</td>
+                        <td class="main_container__championships__championship__x">3.90</td>
+                        <td class="main_container__championships__championship__second">3.41</td>
+                    </tr>
+                
+                </table>
+
+                <table class="main_container__championships__championship">
+                    <tr class="table-title">
+                        <th class="main_container__championships__championship__country">
+                            <img src="./img/UEFA.png" width="50px" height="50px">
+                            <span class="main_container__championships__championship__country__text">Европа. Лига чемпионов УЕФА</span>
+                        </th>
+                        <th class="main_container__championships__championship__prediction">Прогнозы</th>
+                        <th class="main_container__championships__championship__firstcoeff">1</th>
+                        <th class="main_container__championships__championship__xcoeff">X</th>
+                        <th class="main_container__championships__championship__secondcoeff">2</th>
+                    </tr>
+ 
+                    <tr class="championship-content">
+                        <td>
+                            <span class="main_container__championships__championship__date">22:00 16.03</span>
+                            <div class="mini_block" onmouseover="showHiddenTable()" onmouseout="hideHiddenTable()">
+                                <span class="main_container__championships__championship__first">Реал-Мадрид</span>
+                                <span class="main_container__championships__championship__line">-</span>
+                                <span class="main_container__championships__championship__second">Аталанта</span>
+                            </div>
+                        </td>
+                        <td class="main_container__championships__championship__predictioncoeff">7</td>
+                        <td class="main_container__championships__championship__first">2.13</td>
+                        <td class="main_container__championships__championship__x">3.90</td>
+                        <td class="main_container__championships__championship__second">3.41</td>
+                    </tr>
+                    
+                    <tr class="championship-content">
+                        <td>
+                            <span class="main_container__championships__championship__date">22:00 16.03</span>
+                            <div class="mini_block" onmouseover="showHiddenTable()" onmouseout="hideHiddenTable()">
+                                <span class="main_container__championships__championship__first">Манчестер Сити</span>
+                                <span class="main_container__championships__championship__line">-</span>
+                                <span class="main_container__championships__championship__second">Боруссия Менхенгладбах</span>
+                            </div>
+                        </td>
+                        <td class="main_container__championships__championship__predictioncoeff">7</td>
+                        <td class="main_container__championships__championship__first">2.13</td>
+                        <td class="main_container__championships__championship__x">3.90</td>
+                        <td class="main_container__championships__championship__second">3.41</td>
+                    </tr>
+                
+                </table>
+            </div>
+        </div>
+        <div class="all-matches-link">
+            <span class="all-matches-link__text">
+                <!-- тут ссылка чтобы все матчи вывести -->
+                <a style=" text-decoration: none; color: rgb(250, 110, 30);" href="">Все матчи(86)</a></span>   
+        </div>    
+        <footer></footer>
+        <div id="hidden-table" name="hidden-table">
+            <table class="hidden-table__content">
+                <tr class="hidden-table__content__row">
+                    <td class="hidden-table__content__row__name">Марафон</td>
+                    <td class="hidden-table__content__row__first">1.22</td>
+                    <td class="hidden-table__content__row__second">6.90</td>
+                    <td class="hidden-table__content__row__third">13.41</td>
+                </tr>
+                <tr class="hidden-table__content__row">
+                    <td class="hidden-table__content__row__name">Winline</td>
+                    <td class="hidden-table__content__row__first">1.27</td>
+                    <td class="hidden-table__content__row__second">6.20</td>
+                    <td class="hidden-table__content__row__third">13.41</td>
+                </tr>
+                <tr class="hidden-table__content__row">
+                    <td class="hidden-table__content__row__name">Марафон</td>
+                    <td class="hidden-table__content__row__first">1.24</td>
+                    <td class="hidden-table__content__row__second">6.90</td>
+                    <td class="hidden-table__content__row__third">13.41</td>
+                </tr>
+                <tr class="hidden-table__content__row">
+                    <td class="hidden-table__content__row__last"></td>
+                    <td class="hidden-table__content__row__last"></td>
+                    <td class="hidden-table__content__row__last"></td>
+                    <td class="hidden-table__content__row__last"></td>
+                </tr>
+        </div>
+    </body>
+</html>

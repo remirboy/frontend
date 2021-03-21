@@ -1,0 +1,41 @@
+.mini_block{ cursor: pointer; }
+#hidden-table{  
+  display: none; 
+  padding: 30px; 
+  width: 200px;  
+  position: absolute;
+}
+.hidden-table__content{
+    width: 200%;
+    background-color: black;
+    margin: 20px 20px;
+}
+.hidden-table__content__row{
+    position: relative;
+    left: 15px;
+    margin-left: 10px;
+    background-color: black;
+}
+.hidden-table__content__row__name{
+    font-family:'Roboto';
+    background-color: black;
+    color: red;
+}
+.hidden-table__content__row__first{
+    font-family:'Roboto';
+    background-color: black;
+    color: red;
+}
+.hidden-table__content__row__second{
+    font-family:'Roboto';
+    background-color: black;
+    color: red;
+}
+.hidden-table__content__row__third{
+    font-family:'Roboto';
+    background-color: black;
+    color: red;
+}
+.hidden-table__content__row__last{
+    background-color: black;
+}
